@@ -1,0 +1,24 @@
+# WordPress
+*.log
+.htaccess
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*~
+*.swp
+*.swo
+
+# Node modules (if any)
+node_modules/
+
+# Vendor (if using Composer)
+vendor/
