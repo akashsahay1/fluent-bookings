@@ -27,7 +27,7 @@ $recent_bookings = $wpdb->get_results(
 ?>
 
 <div class="wrap fluent-booking-dashboard">
-    <h1><?php esc_html_e('Fluent Bookings Dashboard', 'fluent-bookings'); ?></h1>
+    <h1><?php esc_html_e('Fluent Bookings Dashboard', 'fluent-booking'); ?></h1>
 
     <div class="fb-stats-grid">
         <div class="fb-stat-card">
@@ -36,7 +36,7 @@ $recent_bookings = $wpdb->get_results(
             </div>
             <div class="fb-stat-content">
                 <h3><?php echo esc_html($forms_count); ?></h3>
-                <p><?php esc_html_e('Active Forms', 'fluent-bookings'); ?></p>
+                <p><?php esc_html_e('Active Forms', 'fluent-booking'); ?></p>
             </div>
         </div>
 
@@ -46,7 +46,7 @@ $recent_bookings = $wpdb->get_results(
             </div>
             <div class="fb-stat-content">
                 <h3><?php echo esc_html($bookings_count); ?></h3>
-                <p><?php esc_html_e('Total Bookings', 'fluent-bookings'); ?></p>
+                <p><?php esc_html_e('Total Bookings', 'fluent-booking'); ?></p>
             </div>
         </div>
 
@@ -56,7 +56,7 @@ $recent_bookings = $wpdb->get_results(
             </div>
             <div class="fb-stat-content">
                 <h3><?php echo esc_html($pending_count); ?></h3>
-                <p><?php esc_html_e('Pending Bookings', 'fluent-bookings'); ?></p>
+                <p><?php esc_html_e('Pending Bookings', 'fluent-booking'); ?></p>
             </div>
         </div>
 
@@ -66,25 +66,25 @@ $recent_bookings = $wpdb->get_results(
             </div>
             <div class="fb-stat-content">
                 <h3><?php echo esc_html($today_bookings); ?></h3>
-                <p><?php esc_html_e('Today\'s Bookings', 'fluent-bookings'); ?></p>
+                <p><?php esc_html_e('Today\'s Bookings', 'fluent-booking'); ?></p>
             </div>
         </div>
     </div>
 
     <div class="fb-dashboard-content">
         <div class="fb-dashboard-section">
-            <h2><?php esc_html_e('Recent Bookings', 'fluent-bookings'); ?></h2>
+            <h2><?php esc_html_e('Recent Bookings', 'fluent-booking'); ?></h2>
 
             <?php if (!empty($recent_bookings)) : ?>
                 <table class="wp-list-table widefat fixed striped">
                     <thead>
                         <tr>
-                            <th><?php esc_html_e('Customer', 'fluent-bookings'); ?></th>
-                            <th><?php esc_html_e('Email', 'fluent-bookings'); ?></th>
-                            <th><?php esc_html_e('Date', 'fluent-bookings'); ?></th>
-                            <th><?php esc_html_e('Time', 'fluent-bookings'); ?></th>
-                            <th><?php esc_html_e('Status', 'fluent-bookings'); ?></th>
-                            <th><?php esc_html_e('Created', 'fluent-bookings'); ?></th>
+                            <th><?php esc_html_e('Customer', 'fluent-booking'); ?></th>
+                            <th><?php esc_html_e('Email', 'fluent-booking'); ?></th>
+                            <th><?php esc_html_e('Date', 'fluent-booking'); ?></th>
+                            <th><?php esc_html_e('Time', 'fluent-booking'); ?></th>
+                            <th><?php esc_html_e('Status', 'fluent-booking'); ?></th>
+                            <th><?php esc_html_e('Created', 'fluent-booking'); ?></th>
                         </tr>
                     </thead>
                     <tbody>
@@ -101,57 +101,57 @@ $recent_bookings = $wpdb->get_results(
                     </tbody>
                 </table>
             <?php else : ?>
-                <p><?php esc_html_e('No bookings yet.', 'fluent-bookings'); ?></p>
+                <p><?php esc_html_e('No bookings yet.', 'fluent-booking'); ?></p>
             <?php endif; ?>
 
             <p class="fb-view-all">
                 <a href="<?php echo esc_url(admin_url('admin.php?page=fluent-booking-bookings')); ?>" class="button">
-                    <?php esc_html_e('View All Bookings', 'fluent-bookings'); ?>
+                    <?php esc_html_e('View All Bookings', 'fluent-booking'); ?>
                 </a>
             </p>
         </div>
 
         <div class="fb-dashboard-sidebar">
             <div class="fb-widget">
-                <h3><?php esc_html_e('Quick Actions', 'fluent-bookings'); ?></h3>
+                <h3><?php esc_html_e('Quick Actions', 'fluent-booking'); ?></h3>
                 <ul class="fb-quick-actions">
                     <li>
                         <a href="<?php echo esc_url(admin_url('admin.php?page=fluent-booking-add-form')); ?>">
                             <span class="dashicons dashicons-plus"></span>
-                            <?php esc_html_e('Create New Form', 'fluent-bookings'); ?>
+                            <?php esc_html_e('Create New Form', 'fluent-booking'); ?>
                         </a>
                     </li>
                     <li>
                         <a href="<?php echo esc_url(admin_url('admin.php?page=fluent-booking-calendar')); ?>">
                             <span class="dashicons dashicons-calendar-alt"></span>
-                            <?php esc_html_e('View Calendar', 'fluent-bookings'); ?>
+                            <?php esc_html_e('View Calendar', 'fluent-booking'); ?>
                         </a>
                     </li>
                     <li>
                         <a href="<?php echo esc_url(admin_url('admin.php?page=fluent-booking-settings')); ?>">
                             <span class="dashicons dashicons-admin-settings"></span>
-                            <?php esc_html_e('Plugin Settings', 'fluent-bookings'); ?>
+                            <?php esc_html_e('Plugin Settings', 'fluent-booking'); ?>
                         </a>
                     </li>
                 </ul>
             </div>
 
             <div class="fb-widget">
-                <h3><?php esc_html_e('Documentation', 'fluent-bookings'); ?></h3>
+                <h3><?php esc_html_e('Documentation', 'fluent-booking'); ?></h3>
                 <ul class="fb-docs-links">
                     <li>
                         <a href="#" target="_blank">
-                            <?php esc_html_e('Getting Started Guide', 'fluent-bookings'); ?>
+                            <?php esc_html_e('Getting Started Guide', 'fluent-booking'); ?>
                         </a>
                     </li>
                     <li>
                         <a href="#" target="_blank">
-                            <?php esc_html_e('Using Shortcodes', 'fluent-bookings'); ?>
+                            <?php esc_html_e('Using Shortcodes', 'fluent-booking'); ?>
                         </a>
                     </li>
                     <li>
                         <a href="#" target="_blank">
-                            <?php esc_html_e('Google Calendar Setup', 'fluent-bookings'); ?>
+                            <?php esc_html_e('Google Calendar Setup', 'fluent-booking'); ?>
                         </a>
                     </li>
                 </ul>

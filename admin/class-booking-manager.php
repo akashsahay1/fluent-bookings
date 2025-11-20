@@ -79,15 +79,15 @@ class Fluent_Booking_Booking_Manager {
         $status = isset($_POST['status']) ? sanitize_text_field($_POST['status']) : '';
 
         if (!$booking_id || !in_array($status, array('pending', 'confirmed', 'cancelled', 'completed'))) {
-            Fluent_Booking_Helper::send_error(__('Invalid parameters', 'fluent-bookings'));
+            Fluent_Booking_Helper::send_error(__('Invalid parameters', 'fluent-booking'));
         }
 
         $result = Fluent_Booking::update($booking_id, array('status' => $status));
 
         if ($result) {
-            Fluent_Booking_Helper::send_success(__('Status updated successfully', 'fluent-bookings'));
+            Fluent_Booking_Helper::send_success(__('Status updated successfully', 'fluent-booking'));
         } else {
-            Fluent_Booking_Helper::send_error(__('Failed to update status', 'fluent-bookings'));
+            Fluent_Booking_Helper::send_error(__('Failed to update status', 'fluent-booking'));
         }
     }
 
@@ -101,15 +101,15 @@ class Fluent_Booking_Booking_Manager {
         $booking_id = isset($_POST['booking_id']) ? absint($_POST['booking_id']) : 0;
 
         if (!$booking_id) {
-            Fluent_Booking_Helper::send_error(__('Invalid booking ID', 'fluent-bookings'));
+            Fluent_Booking_Helper::send_error(__('Invalid booking ID', 'fluent-booking'));
         }
 
         $result = Fluent_Booking::delete($booking_id);
 
         if ($result) {
-            Fluent_Booking_Helper::send_success(__('Booking deleted successfully', 'fluent-bookings'));
+            Fluent_Booking_Helper::send_success(__('Booking deleted successfully', 'fluent-booking'));
         } else {
-            Fluent_Booking_Helper::send_error(__('Failed to delete booking', 'fluent-bookings'));
+            Fluent_Booking_Helper::send_error(__('Failed to delete booking', 'fluent-booking'));
         }
     }
 
@@ -163,13 +163,13 @@ class Fluent_Booking_Booking_Manager {
         $booking_id = isset($_POST['booking_id']) ? absint($_POST['booking_id']) : 0;
 
         if (!$booking_id) {
-            Fluent_Booking_Helper::send_error(__('Invalid booking ID', 'fluent-bookings'));
+            Fluent_Booking_Helper::send_error(__('Invalid booking ID', 'fluent-booking'));
         }
 
         $booking = Fluent_Booking::get($booking_id);
 
         if (!$booking) {
-            Fluent_Booking_Helper::send_error(__('Booking not found', 'fluent-bookings'));
+            Fluent_Booking_Helper::send_error(__('Booking not found', 'fluent-booking'));
         }
 
         Fluent_Booking_Helper::send_success('', $booking);
@@ -185,7 +185,7 @@ class Fluent_Booking_Booking_Manager {
         $customer_email = isset($_POST['customer_email']) ? sanitize_email($_POST['customer_email']) : '';
 
         if (!$customer_email) {
-            Fluent_Booking_Helper::send_error(__('Invalid customer email', 'fluent-bookings'));
+            Fluent_Booking_Helper::send_error(__('Invalid customer email', 'fluent-booking'));
         }
 
         global $wpdb;

@@ -1,0 +1,1346 @@
+178 	86 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-appointments'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+179 	61 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-appointments'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+180 	71 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-appointments'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+200 	47 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-appointments'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+201 	61 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-appointments'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+202 	61 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-appointments'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+203 	74 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-appointments'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+
+FILE: public/class-shortcode.php
+Line 	Column 	Type 	Code 	Message 	Edit Link
+46 	65 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+55 	61 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+97 	57 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+101 	59 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+120 	62 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+261 	107 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+
+FILE: public/class-form-handler.php
+Line 	Column 	Type 	Code 	Message 	Edit Link
+49 	75 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+55 	66 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+64 	68 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+84 	29 	ERROR 	WordPress.WP.I18n.MissingTranslatorsComment 	A function call to __() with texts containing placeholders was found, but was not accompanied by a "translators:" comment on the line above to clarify the meaning of the placeholders.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+84 	58 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+93 	87 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+146 	79 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+162 	72 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+167 	73 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+172 	90 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+190 	72 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+
+FILE: includes/class-booking.php
+Line 	Column 	Type 	Code 	Message 	Edit Link
+24 	62 	ERROR 	WordPress.WP.I18n.MissingTranslatorsComment 	A function call to __() with texts containing placeholders was found, but was not accompanied by a "translators:" comment on the line above to clarify the meaning of the placeholders.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+24 	89 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+30 	91 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+56 	81 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+
+FILE: includes/class-helper.php
+Line 	Column 	Type 	Code 	Message 	Edit Link
+102 	40 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+103 	44 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+104 	44 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+105 	44 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+171 	58 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+180 	86 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+189 	31 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+190 	31 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+191 	32 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+192 	34 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+193 	33 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+194 	31 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+195 	33 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+
+FILE: integrations/elementor/class-elementor-widget.php
+Line 	Column 	Type 	Code 	Message 	Edit Link
+24 	42 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+49 	48 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+69 	46 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+89 	53 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+
+FILE: admin/class-booking-manager.php
+Line 	Column 	Type 	Code 	Message 	Edit Link
+82 	72 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+88 	83 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+90 	77 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+104 	72 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+110 	84 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+112 	78 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+166 	72 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+172 	71 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+188 	76 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+
+FILE: admin/class-admin-menu.php
+Line 	Column 	Type 	Code 	Message 	Edit Link
+41 	35 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+42 	35 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+53 	29 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+54 	29 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+63 	29 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+64 	29 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+73 	32 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+74 	32 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+83 	29 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+84 	29 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+93 	39 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+94 	39 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+103 	32 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+104 	32 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+113 	28 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+114 	28 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+123 	29 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+124 	29 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+133 	28 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+134 	28 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+
+FILE: admin/views/dashboard.php
+Line 	Column 	Type 	Code 	Message 	Edit Link
+30 	55 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+39 	53 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+49 	55 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+59 	57 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+69 	58 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+76 	53 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+82 	62 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+83 	59 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+84 	58 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+85 	58 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+86 	60 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+87 	61 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+104 	57 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+109 	59 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+116 	55 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+121 	65 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+127 	63 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+133 	65 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+140 	55 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+144 	71 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+149 	66 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+154 	71 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+
+FILE: admin/views/availability.php
+Line 	Column 	Type 	Code 	Message 	Edit Link
+14 	86 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+27 	80 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+41 	37 	ERROR 	WordPress.WP.I18n.MissingTranslatorsComment 	A function call to __() with texts containing placeholders was found, but was not accompanied by a "translators:" comment on the line above to clarify the meaning of the placeholders.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+41 	61 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+44 	45 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+49 	103 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+50 	95 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+56 	66 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+57 	113 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+62 	78 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+63 	53 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+64 	60 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+65 	58 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+66 	69 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+67 	67 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+68 	79 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+139 	76 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+153 	83 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+166 	59 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+175 	51 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+176 	120 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+179 	58 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+182 	57 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+186 	63 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+188 	83 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+189 	96 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+193 	62 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+197 	60 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+201 	70 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+202 	122 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+207 	60 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+216 	54 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+217 	60 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+218 	56 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+219 	79 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+230 	64 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+239 	68 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+246 	87 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+
+FILE: admin/views/calendar.php
+Line 	Column 	Type 	Code 	Message 	Edit Link
+21 	46 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+27 	46 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+31 	43 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+35 	42 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+46 	64 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+53 	70 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+54 	68 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+55 	66 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+63 	41 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+67 	43 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+71 	43 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+75 	43 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+87 	49 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+92 	51 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+95 	43 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+
+FILE: admin/views/forms-list.php
+Line 	Column 	Type 	Code 	Message 	Edit Link
+21 	65 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+23 	37 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+32 	69 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+33 	51 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+34 	55 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+35 	74 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+36 	75 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+37 	75 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+65 	107 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+67 	111 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+73 	58 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+76 	66 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+82 	63 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+88 	60 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+98 	50 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+99 	95 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+101 	60 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+115 	89 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+
+FILE: admin/views/form-builder.php
+Line 	Column 	Type 	Code 	Message 	Edit Link
+22 	84 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+37 	55 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+37 	106 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+42 	49 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+58 	99 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+59 	96 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+60 	92 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+61 	106 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+68 	63 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+72 	79 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+78 	80 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+82 	85 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+88 	57 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+89 	124 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+99 	55 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+102 	79 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+113 	91 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+124 	79 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+134 	72 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+144 	69 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+148 	100 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+152 	63 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+154 	82 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+155 	86 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+160 	61 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+171 	53 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+174 	60 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+177 	73 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+181 	69 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+185 	74 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+189 	75 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+193 	69 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+200 	52 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+203 	62 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+207 	71 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+211 	68 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+219 	68 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+226 	58 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+229 	73 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+233 	69 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+237 	74 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+241 	75 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+245 	69 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+249 	67 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+253 	71 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+257 	68 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+264 	59 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+267 	73 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+271 	67 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+275 	75 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+279 	69 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+283 	71 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+287 	68 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+300 	61 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+303 	67 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+307 	85 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+311 	66 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+319 	66 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+332 	64 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+336 	76 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+340 	66 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+348 	66 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+358 	67 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+374 	69 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+374 	116 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+377 	48 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+
+FILE: admin/views/bookings-list.php
+Line 	Column 	Type 	Code 	Message 	Edit Link
+21 	42 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+26 	60 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+33 	63 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+34 	65 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+35 	69 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+36 	69 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+37 	69 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+40 	96 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+41 	92 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+43 	102 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+45 	102 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+46 	94 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+47 	101 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+55 	69 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+56 	54 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+57 	53 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+58 	50 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+59 	50 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+60 	74 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+61 	75 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+66 	96 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+79 	49 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+121 	106 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+139 	131 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+140 	137 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+141 	137 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+142 	137 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+145 	136 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+146 	140 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+
+FILE: admin/views/customers.php
+Line 	Column 	Type 	Code 	Message 	Edit Link
+25 	39 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+28 	105 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+29 	103 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+30 	102 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+31 	102 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+38 	69 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+39 	50 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+40 	51 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+41 	51 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+42 	82 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+43 	78 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+44 	75 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+58 	67 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+68 	54 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+69 	88 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+78 	80 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+83 	52 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+84 	54 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+85 	54 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+86 	58 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+87 	56 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+88 	57 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+96 	43 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+
+FILE: admin/views/settings.php
+Line 	Column 	Type 	Code 	Message 	Edit Link
+13 	54 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+15 	126 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+
+FILE: admin/class-form-builder.php
+Line 	Column 	Type 	Code 	Message 	Edit Link
+63 	76 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+90 	49 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+110 	49 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+153 	69 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+177 	77 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+193 	69 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+200 	68 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+244 	48 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+262 	69 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+268 	68 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+294 	72 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+305 	79 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+319 	69 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+325 	87 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+327 	81 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+345 	72 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+351 	81 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+353 	74 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+367 	70 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+373 	83 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+375 	76 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+385 	45 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+389 	40 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+393 	40 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+397 	43 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+401 	43 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+405 	48 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+409 	45 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+413 	46 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+417 	46 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+421 	41 	ERROR 	WordPress.WP.I18n.TextDomainMismatch 	Mismatched text domain. Expected 'fluent-booking' but got 'fluent-bookings'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+
+FILE: fluent-bookings.php
+Line 	Column 	Type 	Code 	Message 	Edit Link
+0 	0 	WARNING 	textdomain_mismatch 	The "Text Domain" header in the plugin file does not match the slug. Found "fluent-appointments", expected "fluent-booking".
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+0 	0 	WARNING 	plugin_header_nonexistent_domain_path 	The "Domain Path" header in the plugin file must point to an existing folder. Found: "languages"
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+
+FILE: public/class-shortcode.php
+Line 	Column 	Type 	Code 	Message 	Edit Link
+147 	58 	ERROR 	WordPress.Security.EscapeOutput.OutputNotEscaped 	All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found '$field_type'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+147 	100 	ERROR 	WordPress.Security.EscapeOutput.OutputNotEscaped 	All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found '$field_width'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+149 	40 	ERROR 	WordPress.Security.EscapeOutput.OutputNotEscaped 	All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found '$field_id'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+150 	32 	ERROR 	WordPress.Security.EscapeOutput.OutputNotEscaped 	All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found '$field_label'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+163 	44 	ERROR 	WordPress.Security.EscapeOutput.OutputNotEscaped 	All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found '$field_id'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+164 	46 	ERROR 	WordPress.Security.EscapeOutput.OutputNotEscaped 	All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found '$field_id'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+165 	53 	ERROR 	WordPress.Security.EscapeOutput.OutputNotEscaped 	All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found '$field_placeholder'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+166 	40 	ERROR 	WordPress.Security.EscapeOutput.OutputNotEscaped 	All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found '$field_required'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+175 	44 	ERROR 	WordPress.Security.EscapeOutput.OutputNotEscaped 	All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found '$field_id'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+176 	46 	ERROR 	WordPress.Security.EscapeOutput.OutputNotEscaped 	All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found '$field_id'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+177 	40 	ERROR 	WordPress.Security.EscapeOutput.OutputNotEscaped 	All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found '$field_required'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+179 	57 	ERROR 	WordPress.Security.EscapeOutput.OutputNotEscaped 	All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found '$field_placeholder'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+196 	58 	ERROR 	WordPress.Security.EscapeOutput.OutputNotEscaped 	All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found '$field_id'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+198 	52 	ERROR 	WordPress.Security.EscapeOutput.OutputNotEscaped 	All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found '$field_required'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+214 	58 	ERROR 	WordPress.Security.EscapeOutput.OutputNotEscaped 	All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found '$field_id'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+229 	44 	ERROR 	WordPress.Security.EscapeOutput.OutputNotEscaped 	All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found '$field_id'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+230 	46 	ERROR 	WordPress.Security.EscapeOutput.OutputNotEscaped 	All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found '$field_id'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+231 	40 	ERROR 	WordPress.Security.EscapeOutput.OutputNotEscaped 	All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found '$field_required'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+235 	83 	ERROR 	WordPress.Security.EscapeOutput.OutputNotEscaped 	All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found '$field_id'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+254 	44 	ERROR 	WordPress.Security.EscapeOutput.OutputNotEscaped 	All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found '$field_id'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+255 	46 	ERROR 	WordPress.Security.EscapeOutput.OutputNotEscaped 	All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found '$field_id'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+256 	40 	ERROR 	WordPress.Security.EscapeOutput.OutputNotEscaped 	All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found '$field_required'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+260 	85 	ERROR 	WordPress.Security.EscapeOutput.OutputNotEscaped 	All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found '$field_id'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+270 	46 	ERROR 	WordPress.Security.EscapeOutput.OutputNotEscaped 	All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found '$field_type'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+271 	44 	ERROR 	WordPress.Security.EscapeOutput.OutputNotEscaped 	All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found '$field_id'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+272 	46 	ERROR 	WordPress.Security.EscapeOutput.OutputNotEscaped 	All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found '$field_id'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+273 	53 	ERROR 	WordPress.Security.EscapeOutput.OutputNotEscaped 	All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found '$field_placeholder'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+274 	40 	ERROR 	WordPress.Security.EscapeOutput.OutputNotEscaped 	All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found '$field_required'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+291 	25 	ERROR 	WordPress.Security.EscapeOutput.OutputNotEscaped 	All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found '$instance_id'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+298 	25 	ERROR 	WordPress.Security.EscapeOutput.OutputNotEscaped 	All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found '$instance_id'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+305 	25 	ERROR 	WordPress.Security.EscapeOutput.OutputNotEscaped 	All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found '$instance_id'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+306 	25 	ERROR 	WordPress.Security.EscapeOutput.OutputNotEscaped 	All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found '$instance_id'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+307 	25 	ERROR 	WordPress.Security.EscapeOutput.OutputNotEscaped 	All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found '$instance_id'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+317 	25 	ERROR 	WordPress.Security.EscapeOutput.OutputNotEscaped 	All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found '$instance_id'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+
+FILE: integrations/elementor/class-elementor-widget.php
+Line 	Column 	Type 	Code 	Message 	Edit Link
+89 	26 	ERROR 	WordPress.Security.EscapeOutput.OutputNotEscaped 	All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found '__'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+
+FILE: admin/views/dashboard.php
+Line 	Column 	Type 	Code 	Message 	Edit Link
+97 	48 	ERROR 	WordPress.Security.EscapeOutput.OutputNotEscaped 	All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found 'Fluent_Booking_Helper'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+
+FILE: admin/views/availability.php
+Line 	Column 	Type 	Code 	Message 	Edit Link
+89 	54 	ERROR 	WordPress.Security.EscapeOutput.OutputNotEscaped 	All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found '$day'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+91 	104 	ERROR 	WordPress.Security.EscapeOutput.OutputNotEscaped 	All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found '$day'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+113 	58 	ERROR 	WordPress.Security.EscapeOutput.OutputNotEscaped 	All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found '$day'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+113 	93 	ERROR 	WordPress.Security.EscapeOutput.OutputNotEscaped 	All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found '$rule['id']'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+116 	112 	ERROR 	WordPress.Security.EscapeOutput.OutputNotEscaped 	All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found '$day'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+138 	140 	ERROR 	WordPress.Security.EscapeOutput.OutputNotEscaped 	All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found '$rule['id']'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+149 	54 	ERROR 	WordPress.Security.EscapeOutput.OutputNotEscaped 	All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found '$day'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+151 	125 	ERROR 	WordPress.Security.EscapeOutput.OutputNotEscaped 	All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found '$day'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+183 	79 	ERROR 	WordPress.Security.EscapeOutput.OutputNotEscaped 	All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found 'date'.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+
+FILE: fluent-bookings.php
+Line 	Column 	Type 	Code 	Message 	Edit Link
+148 	9 	ERROR 	PluginCheck.CodeAnalysis.DiscouragedFunctions.load_plugin_textdomainFound 	load_plugin_textdomain() has been discouraged since WordPress version 4.6. When your plugin is hosted on WordPress.org, you no longer need to manually include this function call for translations under your plugin slug. WordPress will automatically load the translations for you as needed.
+Learn more (opens in a new tab) 	View in code editor (opens in a new tab)
+
+FILE: public/class-form-handler.php
+Line 	Column 	Type 	Code 	Message 	Edit Link
+171 	42 	ERROR 	WordPress.DateTime.RestrictedFunctions.date_date 	date() is affected by runtime timezone changes which can cause date/time to be incorrectly displayed. Use gmdate() instead. 	View in code editor (opens in a new tab)
+186 	97 	ERROR 	WordPress.DateTime.RestrictedFunctions.date_date 	date() is affected by runtime timezone changes which can cause date/time to be incorrectly displayed. Use gmdate() instead. 	View in code editor (opens in a new tab)
+187 	91 	ERROR 	WordPress.DateTime.RestrictedFunctions.date_date 	date() is affected by runtime timezone changes which can cause date/time to be incorrectly displayed. Use gmdate() instead. 	View in code editor (opens in a new tab)
+201 	21 	ERROR 	WordPress.DateTime.RestrictedFunctions.date_date 	date() is affected by runtime timezone changes which can cause date/time to be incorrectly displayed. Use gmdate() instead. 	View in code editor (opens in a new tab)
+48 	60 	WARNING 	WordPress.Security.ValidatedSanitizedInput.MissingUnslash 	$_POST['fb_nonce'] not unslashed before sanitization. Use wp_unslash() or similar 	View in code editor (opens in a new tab)
+48 	60 	WARNING 	WordPress.Security.ValidatedSanitizedInput.InputNotSanitized 	Detected usage of a non-sanitized input variable: $_POST['fb_nonce'] 	View in code editor (opens in a new tab)
+61 	47 	WARNING 	WordPress.DB.PreparedSQL.InterpolatedNotPrepared 	Use placeholders and $wpdb->prepare(); found interpolated variable $table at "SELECT * FROM $table WHERE id = %d AND status = 'active'" 	View in code editor (opens in a new tab)
+79 	55 	WARNING 	WordPress.Security.ValidatedSanitizedInput.MissingUnslash 	$_POST[$field_id] not unslashed before sanitization. Use wp_unslash() or similar 	View in code editor (opens in a new tab)
+79 	55 	WARNING 	WordPress.Security.ValidatedSanitizedInput.InputNotSanitized 	Detected usage of a non-sanitized input variable: $_POST[$field_id] 	View in code editor (opens in a new tab)
+158 	26 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+158 	54 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+159 	23 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+159 	61 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+159 	61 	WARNING 	WordPress.Security.ValidatedSanitizedInput.MissingUnslash 	$_POST['date'] not unslashed before sanitization. Use wp_unslash() or similar 	View in code editor (opens in a new tab)
+185 	26 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+185 	54 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+186 	29 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+186 	73 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+186 	73 	WARNING 	WordPress.Security.ValidatedSanitizedInput.MissingUnslash 	$_POST['start_date'] not unslashed before sanitization. Use wp_unslash() or similar 	View in code editor (opens in a new tab)
+187 	27 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+187 	69 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+187 	69 	WARNING 	WordPress.Security.ValidatedSanitizedInput.MissingUnslash 	$_POST['end_date'] not unslashed before sanitization. Use wp_unslash() or similar 	View in code editor (opens in a new tab)
+
+FILE: includes/class-booking.php
+Line 	Column 	Type 	Code 	Message 	Edit Link
+35 	29 	ERROR 	WordPress.DateTime.RestrictedFunctions.date_date 	date() is affected by runtime timezone changes which can cause date/time to be incorrectly displayed. Use gmdate() instead. 	View in code editor (opens in a new tab)
+273 	35 	ERROR 	WordPress.DB.PreparedSQL.NotPrepared 	Use placeholders and $wpdb->prepare(); found $sql 	View in code editor (opens in a new tab)
+276 	35 	ERROR 	WordPress.DB.PreparedSQL.NotPrepared 	Use placeholders and $wpdb->prepare(); found $sql 	View in code editor (opens in a new tab)
+314 	35 	ERROR 	WordPress.DB.PreparedSQL.NotPrepared 	Use placeholders and $wpdb->prepare(); found $sql 	View in code editor (opens in a new tab)
+317 	31 	ERROR 	WordPress.DB.PreparedSQL.NotPrepared 	Use placeholders and $wpdb->prepare(); found $sql 	View in code editor (opens in a new tab)
+79 	13 	WARNING 	WordPress.DB.PreparedSQL.InterpolatedNotPrepared 	Use placeholders and $wpdb->prepare(); found interpolated variable $table at "SELECT * FROM $table WHERE email = %s" 	View in code editor (opens in a new tab)
+116 	13 	WARNING 	WordPress.DB.PreparedSQL.InterpolatedNotPrepared 	Use placeholders and $wpdb->prepare(); found interpolated variable $table at "SELECT COUNT(*) FROM $table\n 	View in code editor (opens in a new tab)
+133 	13 	WARNING 	WordPress.DB.PreparedSQL.InterpolatedNotPrepared 	Use placeholders and $wpdb->prepare(); found interpolated variable $blocked_table at "SELECT COUNT(*) FROM $blocked_table\n 	View in code editor (opens in a new tab)
+159 	13 	WARNING 	WordPress.DB.PreparedSQL.InterpolatedNotPrepared 	Use placeholders and $wpdb->prepare(); found interpolated variable $table at "SELECT * FROM $table WHERE id = %d" 	View in code editor (opens in a new tab)
+
+FILE: includes/class-availability.php
+Line 	Column 	Type 	Code 	Message 	Edit Link
+20 	24 	ERROR 	WordPress.DateTime.RestrictedFunctions.date_date 	date() is affected by runtime timezone changes which can cause date/time to be incorrectly displayed. Use gmdate() instead. 	View in code editor (opens in a new tab)
+74 	24 	ERROR 	WordPress.DateTime.RestrictedFunctions.date_date 	date() is affected by runtime timezone changes which can cause date/time to be incorrectly displayed. Use gmdate() instead. 	View in code editor (opens in a new tab)
+198 	24 	ERROR 	WordPress.DateTime.RestrictedFunctions.date_date 	date() is affected by runtime timezone changes which can cause date/time to be incorrectly displayed. Use gmdate() instead. 	View in code editor (opens in a new tab)
+328 	31 	ERROR 	WordPress.DB.PreparedSQL.NotPrepared 	Use placeholders and $wpdb->prepare(); found $sql 	View in code editor (opens in a new tab)
+330 	35 	ERROR 	WordPress.DB.PreparedSQL.NotPrepared 	Use placeholders and $wpdb->prepare(); found $sql 	View in code editor (opens in a new tab)
+25 	13 	WARNING 	WordPress.DB.PreparedSQL.InterpolatedNotPrepared 	Use placeholders and $wpdb->prepare(); found interpolated variable $availability_table at "SELECT * FROM $availability_table\n 	View in code editor (opens in a new tab)
+79 	13 	WARNING 	WordPress.DB.PreparedSQL.InterpolatedNotPrepared 	Use placeholders and $wpdb->prepare(); found interpolated variable $availability_table at "SELECT * FROM $availability_table\n 	View in code editor (opens in a new tab)
+141 	13 	WARNING 	WordPress.DB.PreparedSQL.InterpolatedNotPrepared 	Use placeholders and $wpdb->prepare(); found interpolated variable $table at "SELECT booking_time FROM $table\n 	View in code editor (opens in a new tab)
+165 	13 	WARNING 	WordPress.DB.PreparedSQL.InterpolatedNotPrepared 	Use placeholders and $wpdb->prepare(); found interpolated variable $table at "SELECT blocked_from, blocked_to FROM $table\n 	View in code editor (opens in a new tab)
+203 	13 	WARNING 	WordPress.DB.PreparedSQL.InterpolatedNotPrepared 	Use placeholders and $wpdb->prepare(); found interpolated variable $availability_table at "SELECT * FROM $availability_table\n 	View in code editor (opens in a new tab)
+240 	13 	WARNING 	WordPress.DB.PreparedSQL.InterpolatedNotPrepared 	Use placeholders and $wpdb->prepare(); found interpolated variable $table at "SELECT * FROM $table WHERE form_id = %d ORDER BY day_of_week, start_time" 	View in code editor (opens in a new tab)
+
+FILE: includes/class-email.php
+Line 	Column 	Type 	Code 	Message 	Edit Link
+167 	27 	ERROR 	WordPress.DateTime.RestrictedFunctions.date_date 	date() is affected by runtime timezone changes which can cause date/time to be incorrectly displayed. Use gmdate() instead. 	View in code editor (opens in a new tab)
+
+FILE: includes/class-helper.php
+Line 	Column 	Type 	Code 	Message 	Edit Link
+208 	24 	ERROR 	WordPress.DateTime.RestrictedFunctions.date_date 	date() is affected by runtime timezone changes which can cause date/time to be incorrectly displayed. Use gmdate() instead. 	View in code editor (opens in a new tab)
+
+FILE: admin/class-booking-manager.php
+Line 	Column 	Type 	Code 	Message 	Edit Link
+123 	69 	ERROR 	WordPress.DateTime.RestrictedFunctions.date_date 	date() is affected by runtime timezone changes which can cause date/time to be incorrectly displayed. Use gmdate() instead. 	View in code editor (opens in a new tab)
+124 	66 	ERROR 	WordPress.DateTime.RestrictedFunctions.date_date 	date() is affected by runtime timezone changes which can cause date/time to be incorrectly displayed. Use gmdate() instead. 	View in code editor (opens in a new tab)
+127 	88 	ERROR 	WordPress.DateTime.RestrictedFunctions.date_date 	date() is affected by runtime timezone changes which can cause date/time to be incorrectly displayed. Use gmdate() instead. 	View in code editor (opens in a new tab)
+222 	72 	ERROR 	WordPress.DateTime.RestrictedFunctions.date_date 	date() is affected by runtime timezone changes which can cause date/time to be incorrectly displayed. Use gmdate() instead. 	View in code editor (opens in a new tab)
+254 	9 	ERROR 	WordPress.WP.AlternativeFunctions.file_system_operations_fclose 	File operations should use WP_Filesystem methods instead of direct PHP filesystem calls. Found: fclose(). 	View in code editor (opens in a new tab)
+275 	73 	ERROR 	WordPress.DateTime.RestrictedFunctions.date_date 	date() is affected by runtime timezone changes which can cause date/time to be incorrectly displayed. Use gmdate() instead. 	View in code editor (opens in a new tab)
+301 	9 	ERROR 	WordPress.WP.AlternativeFunctions.file_system_operations_fclose 	File operations should use WP_Filesystem methods instead of direct PHP filesystem calls. Found: fclose(). 	View in code editor (opens in a new tab)
+47 	45 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+47 	45 	WARNING 	WordPress.Security.ValidatedSanitizedInput.InputNotValidated 	Detected usage of a possibly undefined superglobal array index: $_POST['nonce']. Use isset() or empty() to check the index exists before using it 	View in code editor (opens in a new tab)
+47 	45 	WARNING 	WordPress.Security.ValidatedSanitizedInput.MissingUnslash 	$_POST['nonce'] not unslashed before sanitization. Use wp_unslash() or similar 	View in code editor (opens in a new tab)
+47 	45 	WARNING 	WordPress.Security.ValidatedSanitizedInput.InputNotSanitized 	Detected usage of a non-sanitized input variable: $_POST['nonce'] 	View in code editor (opens in a new tab)
+51 	32 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+51 	60 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+52 	31 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+52 	71 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+52 	71 	WARNING 	WordPress.Security.ValidatedSanitizedInput.MissingUnslash 	$_POST['status'] not unslashed before sanitization. Use wp_unslash() or similar 	View in code editor (opens in a new tab)
+53 	34 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+53 	77 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+53 	77 	WARNING 	WordPress.Security.ValidatedSanitizedInput.MissingUnslash 	$_POST['date_from'] not unslashed before sanitization. Use wp_unslash() or similar 	View in code editor (opens in a new tab)
+54 	32 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+54 	73 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+54 	73 	WARNING 	WordPress.Security.ValidatedSanitizedInput.MissingUnslash 	$_POST['date_to'] not unslashed before sanitization. Use wp_unslash() or similar 	View in code editor (opens in a new tab)
+55 	31 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+55 	71 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+55 	71 	WARNING 	WordPress.Security.ValidatedSanitizedInput.MissingUnslash 	$_POST['search'] not unslashed before sanitization. Use wp_unslash() or similar 	View in code editor (opens in a new tab)
+56 	32 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+56 	73 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+56 	73 	WARNING 	WordPress.Security.ValidatedSanitizedInput.MissingUnslash 	$_POST['orderby'] not unslashed before sanitization. Use wp_unslash() or similar 	View in code editor (opens in a new tab)
+57 	30 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+57 	69 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+57 	69 	WARNING 	WordPress.Security.ValidatedSanitizedInput.MissingUnslash 	$_POST['order'] not unslashed before sanitization. Use wp_unslash() or similar 	View in code editor (opens in a new tab)
+58 	30 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+58 	56 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+59 	31 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+59 	58 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+75 	45 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+75 	45 	WARNING 	WordPress.Security.ValidatedSanitizedInput.InputNotValidated 	Detected usage of a possibly undefined superglobal array index: $_POST['nonce']. Use isset() or empty() to check the index exists before using it 	View in code editor (opens in a new tab)
+75 	45 	WARNING 	WordPress.Security.ValidatedSanitizedInput.MissingUnslash 	$_POST['nonce'] not unslashed before sanitization. Use wp_unslash() or similar 	View in code editor (opens in a new tab)
+75 	45 	WARNING 	WordPress.Security.ValidatedSanitizedInput.InputNotSanitized 	Detected usage of a non-sanitized input variable: $_POST['nonce'] 	View in code editor (opens in a new tab)
+78 	29 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+78 	60 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+79 	25 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+79 	65 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+79 	65 	WARNING 	WordPress.Security.ValidatedSanitizedInput.MissingUnslash 	$_POST['status'] not unslashed before sanitization. Use wp_unslash() or similar 	View in code editor (opens in a new tab)
+98 	45 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+98 	45 	WARNING 	WordPress.Security.ValidatedSanitizedInput.InputNotValidated 	Detected usage of a possibly undefined superglobal array index: $_POST['nonce']. Use isset() or empty() to check the index exists before using it 	View in code editor (opens in a new tab)
+98 	45 	WARNING 	WordPress.Security.ValidatedSanitizedInput.MissingUnslash 	$_POST['nonce'] not unslashed before sanitization. Use wp_unslash() or similar 	View in code editor (opens in a new tab)
+98 	45 	WARNING 	WordPress.Security.ValidatedSanitizedInput.InputNotSanitized 	Detected usage of a non-sanitized input variable: $_POST['nonce'] 	View in code editor (opens in a new tab)
+101 	29 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+101 	60 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+120 	45 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+120 	45 	WARNING 	WordPress.Security.ValidatedSanitizedInput.InputNotValidated 	Detected usage of a possibly undefined superglobal array index: $_POST['nonce']. Use isset() or empty() to check the index exists before using it 	View in code editor (opens in a new tab)
+120 	45 	WARNING 	WordPress.Security.ValidatedSanitizedInput.MissingUnslash 	$_POST['nonce'] not unslashed before sanitization. Use wp_unslash() or similar 	View in code editor (opens in a new tab)
+120 	45 	WARNING 	WordPress.Security.ValidatedSanitizedInput.InputNotSanitized 	Detected usage of a non-sanitized input variable: $_POST['nonce'] 	View in code editor (opens in a new tab)
+123 	24 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+123 	50 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+124 	23 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+124 	48 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+125 	26 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+125 	54 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+126 	28 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+126 	71 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+126 	71 	WARNING 	WordPress.Security.ValidatedSanitizedInput.MissingUnslash 	$_POST['date_from'] not unslashed before sanitization. Use wp_unslash() or similar 	View in code editor (opens in a new tab)
+127 	26 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+127 	67 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+127 	67 	WARNING 	WordPress.Security.ValidatedSanitizedInput.MissingUnslash 	$_POST['date_to'] not unslashed before sanitization. Use wp_unslash() or similar 	View in code editor (opens in a new tab)
+160 	45 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+160 	45 	WARNING 	WordPress.Security.ValidatedSanitizedInput.InputNotValidated 	Detected usage of a possibly undefined superglobal array index: $_POST['nonce']. Use isset() or empty() to check the index exists before using it 	View in code editor (opens in a new tab)
+160 	45 	WARNING 	WordPress.Security.ValidatedSanitizedInput.MissingUnslash 	$_POST['nonce'] not unslashed before sanitization. Use wp_unslash() or similar 	View in code editor (opens in a new tab)
+160 	45 	WARNING 	WordPress.Security.ValidatedSanitizedInput.InputNotSanitized 	Detected usage of a non-sanitized input variable: $_POST['nonce'] 	View in code editor (opens in a new tab)
+163 	29 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+163 	60 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+182 	45 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+182 	45 	WARNING 	WordPress.Security.ValidatedSanitizedInput.InputNotValidated 	Detected usage of a possibly undefined superglobal array index: $_POST['nonce']. Use isset() or empty() to check the index exists before using it 	View in code editor (opens in a new tab)
+182 	45 	WARNING 	WordPress.Security.ValidatedSanitizedInput.MissingUnslash 	$_POST['nonce'] not unslashed before sanitization. Use wp_unslash() or similar 	View in code editor (opens in a new tab)
+182 	45 	WARNING 	WordPress.Security.ValidatedSanitizedInput.InputNotSanitized 	Detected usage of a non-sanitized input variable: $_POST['nonce'] 	View in code editor (opens in a new tab)
+185 	33 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+185 	76 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+185 	76 	WARNING 	WordPress.Security.ValidatedSanitizedInput.MissingUnslash 	$_POST['customer_email'] not unslashed before sanitization. Use wp_unslash() or similar 	View in code editor (opens in a new tab)
+195 	13 	WARNING 	WordPress.DB.PreparedSQL.InterpolatedNotPrepared 	Use placeholders and $wpdb->prepare(); found interpolated variable $table at "SELECT * FROM $table WHERE customer_email = %s ORDER BY booking_date DESC, booking_time DESC" 	View in code editor (opens in a new tab)
+206 	45 	WARNING 	WordPress.Security.NonceVerification.Recommended 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+206 	45 	WARNING 	WordPress.Security.ValidatedSanitizedInput.InputNotValidated 	Detected usage of a possibly undefined superglobal array index: $_GET['nonce']. Use isset() or empty() to check the index exists before using it 	View in code editor (opens in a new tab)
+206 	45 	WARNING 	WordPress.Security.ValidatedSanitizedInput.MissingUnslash 	$_GET['nonce'] not unslashed before sanitization. Use wp_unslash() or similar 	View in code editor (opens in a new tab)
+206 	45 	WARNING 	WordPress.Security.ValidatedSanitizedInput.InputNotSanitized 	Detected usage of a non-sanitized input variable: $_GET['nonce'] 	View in code editor (opens in a new tab)
+210 	32 	WARNING 	WordPress.Security.NonceVerification.Recommended 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+210 	59 	WARNING 	WordPress.Security.NonceVerification.Recommended 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+211 	31 	WARNING 	WordPress.Security.NonceVerification.Recommended 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+211 	70 	WARNING 	WordPress.Security.NonceVerification.Recommended 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+211 	70 	WARNING 	WordPress.Security.ValidatedSanitizedInput.MissingUnslash 	$_GET['status'] not unslashed before sanitization. Use wp_unslash() or similar 	View in code editor (opens in a new tab)
+212 	34 	WARNING 	WordPress.Security.NonceVerification.Recommended 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+212 	76 	WARNING 	WordPress.Security.NonceVerification.Recommended 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+212 	76 	WARNING 	WordPress.Security.ValidatedSanitizedInput.MissingUnslash 	$_GET['date_from'] not unslashed before sanitization. Use wp_unslash() or similar 	View in code editor (opens in a new tab)
+213 	32 	WARNING 	WordPress.Security.NonceVerification.Recommended 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+213 	72 	WARNING 	WordPress.Security.NonceVerification.Recommended 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+213 	72 	WARNING 	WordPress.Security.ValidatedSanitizedInput.MissingUnslash 	$_GET['date_to'] not unslashed before sanitization. Use wp_unslash() or similar 	View in code editor (opens in a new tab)
+262 	45 	WARNING 	WordPress.Security.NonceVerification.Recommended 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+262 	45 	WARNING 	WordPress.Security.ValidatedSanitizedInput.InputNotValidated 	Detected usage of a possibly undefined superglobal array index: $_GET['nonce']. Use isset() or empty() to check the index exists before using it 	View in code editor (opens in a new tab)
+262 	45 	WARNING 	WordPress.Security.ValidatedSanitizedInput.MissingUnslash 	$_GET['nonce'] not unslashed before sanitization. Use wp_unslash() or similar 	View in code editor (opens in a new tab)
+262 	45 	WARNING 	WordPress.Security.ValidatedSanitizedInput.InputNotSanitized 	Detected usage of a non-sanitized input variable: $_GET['nonce'] 	View in code editor (opens in a new tab)
+269 	13 	WARNING 	WordPress.DB.PreparedSQL.InterpolatedNotPrepared 	Use placeholders and $wpdb->prepare(); found interpolated variable $table at "SELECT * FROM $table ORDER BY created_at DESC" 	View in code editor (opens in a new tab)
+
+FILE: admin/views/dashboard.php
+Line 	Column 	Type 	Code 	Message 	Edit Link
+19 	5 	ERROR 	WordPress.DateTime.RestrictedFunctions.date_date 	date() is affected by runtime timezone changes which can cause date/time to be incorrectly displayed. Use gmdate() instead. 	View in code editor (opens in a new tab)
+
+FILE: admin/views/availability.php
+Line 	Column 	Type 	Code 	Message 	Edit Link
+183 	79 	ERROR 	WordPress.DateTime.RestrictedFunctions.date_date 	date() is affected by runtime timezone changes which can cause date/time to be incorrectly displayed. Use gmdate() instead. 	View in code editor (opens in a new tab)
+11 	18 	WARNING 	WordPress.Security.NonceVerification.Recommended 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+11 	45 	WARNING 	WordPress.Security.NonceVerification.Recommended 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+
+FILE: public/class-shortcode.php
+Line 	Column 	Type 	Code 	Message 	Edit Link
+52 	47 	WARNING 	WordPress.DB.PreparedSQL.InterpolatedNotPrepared 	Use placeholders and $wpdb->prepare(); found interpolated variable $table at "SELECT * FROM $table WHERE id = %d AND status = 'active'" 	View in code editor (opens in a new tab)
+
+FILE: includes/class-database.php
+Line 	Column 	Type 	Code 	Message 	Edit Link
+163 	39 	WARNING 	WordPress.DB.PreparedSQL.InterpolatedNotPrepared 	Use placeholders and $wpdb->prepare(); found interpolated variable $forms_table at "SELECT COUNT(*) FROM $forms_table" 	View in code editor (opens in a new tab)
+370 	26 	WARNING 	WordPress.DB.PreparedSQL.InterpolatedNotPrepared 	Use placeholders and $wpdb->prepare(); found interpolated variable $table at "DROP TABLE IF EXISTS $table" 	View in code editor (opens in a new tab)
+
+FILE: admin/views/form-builder.php
+Line 	Column 	Type 	Code 	Message 	Edit Link
+11 	18 	WARNING 	WordPress.Security.NonceVerification.Recommended 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+11 	40 	WARNING 	WordPress.Security.NonceVerification.Recommended 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+19 	48 	WARNING 	WordPress.DB.PreparedSQL.InterpolatedNotPrepared 	Use placeholders and $wpdb->prepare(); found interpolated variable $table at "SELECT * FROM $table WHERE id = %d" 	View in code editor (opens in a new tab)
+
+FILE: admin/class-form-builder.php
+Line 	Column 	Type 	Code 	Message 	Edit Link
+47 	45 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+47 	45 	WARNING 	WordPress.Security.ValidatedSanitizedInput.InputNotValidated 	Detected usage of a possibly undefined superglobal array index: $_POST['nonce']. Use isset() or empty() to check the index exists before using it 	View in code editor (opens in a new tab)
+47 	45 	WARNING 	WordPress.Security.ValidatedSanitizedInput.MissingUnslash 	$_POST['nonce'] not unslashed before sanitization. Use wp_unslash() or similar 	View in code editor (opens in a new tab)
+47 	45 	WARNING 	WordPress.Security.ValidatedSanitizedInput.InputNotSanitized 	Detected usage of a non-sanitized input variable: $_POST['nonce'] 	View in code editor (opens in a new tab)
+53 	26 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+53 	54 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+54 	24 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+54 	63 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+54 	63 	WARNING 	WordPress.Security.ValidatedSanitizedInput.MissingUnslash 	$_POST['title'] not unslashed before sanitization. Use wp_unslash() or similar 	View in code editor (opens in a new tab)
+55 	30 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+55 	79 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+55 	79 	WARNING 	WordPress.Security.ValidatedSanitizedInput.MissingUnslash 	$_POST['description'] not unslashed before sanitization. Use wp_unslash() or similar 	View in code editor (opens in a new tab)
+56 	30 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+56 	55 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+56 	55 	WARNING 	WordPress.Security.ValidatedSanitizedInput.MissingUnslash 	$_POST['form_fields'] not unslashed before sanitization. Use wp_unslash() or similar 	View in code editor (opens in a new tab)
+56 	55 	WARNING 	WordPress.Security.ValidatedSanitizedInput.InputNotSanitized 	Detected usage of a non-sanitized input variable: $_POST['form_fields'] 	View in code editor (opens in a new tab)
+57 	32 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+57 	59 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+57 	59 	WARNING 	WordPress.Security.ValidatedSanitizedInput.MissingUnslash 	$_POST['form_settings'] not unslashed before sanitization. Use wp_unslash() or similar 	View in code editor (opens in a new tab)
+57 	59 	WARNING 	WordPress.Security.ValidatedSanitizedInput.InputNotSanitized 	Detected usage of a non-sanitized input variable: $_POST['form_settings'] 	View in code editor (opens in a new tab)
+58 	33 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+58 	61 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+58 	61 	WARNING 	WordPress.Security.ValidatedSanitizedInput.MissingUnslash 	$_POST['style_settings'] not unslashed before sanitization. Use wp_unslash() or similar 	View in code editor (opens in a new tab)
+58 	61 	WARNING 	WordPress.Security.ValidatedSanitizedInput.InputNotSanitized 	Detected usage of a non-sanitized input variable: $_POST['style_settings'] 	View in code editor (opens in a new tab)
+59 	40 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+59 	75 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+59 	75 	WARNING 	WordPress.Security.ValidatedSanitizedInput.MissingUnslash 	$_POST['notification_settings'] not unslashed before sanitization. Use wp_unslash() or similar 	View in code editor (opens in a new tab)
+59 	75 	WARNING 	WordPress.Security.ValidatedSanitizedInput.InputNotSanitized 	Detected usage of a non-sanitized input variable: $_POST['notification_settings'] 	View in code editor (opens in a new tab)
+145 	45 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+145 	45 	WARNING 	WordPress.Security.ValidatedSanitizedInput.InputNotValidated 	Detected usage of a possibly undefined superglobal array index: $_POST['nonce']. Use isset() or empty() to check the index exists before using it 	View in code editor (opens in a new tab)
+145 	45 	WARNING 	WordPress.Security.ValidatedSanitizedInput.MissingUnslash 	$_POST['nonce'] not unslashed before sanitization. Use wp_unslash() or similar 	View in code editor (opens in a new tab)
+145 	45 	WARNING 	WordPress.Security.ValidatedSanitizedInput.InputNotSanitized 	Detected usage of a non-sanitized input variable: $_POST['nonce'] 	View in code editor (opens in a new tab)
+150 	26 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+150 	54 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+184 	45 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+184 	45 	WARNING 	WordPress.Security.ValidatedSanitizedInput.InputNotValidated 	Detected usage of a possibly undefined superglobal array index: $_POST['nonce']. Use isset() or empty() to check the index exists before using it 	View in code editor (opens in a new tab)
+184 	45 	WARNING 	WordPress.Security.ValidatedSanitizedInput.MissingUnslash 	$_POST['nonce'] not unslashed before sanitization. Use wp_unslash() or similar 	View in code editor (opens in a new tab)
+184 	45 	WARNING 	WordPress.Security.ValidatedSanitizedInput.InputNotSanitized 	Detected usage of a non-sanitized input variable: $_POST['nonce'] 	View in code editor (opens in a new tab)
+190 	26 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+190 	54 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+197 	47 	WARNING 	WordPress.DB.PreparedSQL.InterpolatedNotPrepared 	Use placeholders and $wpdb->prepare(); found interpolated variable $table at "SELECT * FROM $table WHERE id = %d" 	View in code editor (opens in a new tab)
+217 	13 	WARNING 	WordPress.DB.PreparedSQL.InterpolatedNotPrepared 	Use placeholders and $wpdb->prepare(); found interpolated variable $availability_table at "SELECT * FROM $availability_table WHERE form_id = %d" 	View in code editor (opens in a new tab)
+231 	13 	WARNING 	WordPress.DB.PreparedSQL.InterpolatedNotPrepared 	Use placeholders and $wpdb->prepare(); found interpolated variable $notifications_table at "SELECT * FROM $notifications_table WHERE form_id = %d" 	View in code editor (opens in a new tab)
+253 	45 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+253 	45 	WARNING 	WordPress.Security.ValidatedSanitizedInput.InputNotValidated 	Detected usage of a possibly undefined superglobal array index: $_POST['nonce']. Use isset() or empty() to check the index exists before using it 	View in code editor (opens in a new tab)
+253 	45 	WARNING 	WordPress.Security.ValidatedSanitizedInput.MissingUnslash 	$_POST['nonce'] not unslashed before sanitization. Use wp_unslash() or similar 	View in code editor (opens in a new tab)
+253 	45 	WARNING 	WordPress.Security.ValidatedSanitizedInput.InputNotSanitized 	Detected usage of a non-sanitized input variable: $_POST['nonce'] 	View in code editor (opens in a new tab)
+259 	26 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+259 	54 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+265 	47 	WARNING 	WordPress.DB.PreparedSQL.InterpolatedNotPrepared 	Use placeholders and $wpdb->prepare(); found interpolated variable $table at "SELECT * FROM $table WHERE id = %d" 	View in code editor (opens in a new tab)
+284 	45 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+284 	45 	WARNING 	WordPress.Security.ValidatedSanitizedInput.InputNotValidated 	Detected usage of a possibly undefined superglobal array index: $_POST['nonce']. Use isset() or empty() to check the index exists before using it 	View in code editor (opens in a new tab)
+284 	45 	WARNING 	WordPress.Security.ValidatedSanitizedInput.MissingUnslash 	$_POST['nonce'] not unslashed before sanitization. Use wp_unslash() or similar 	View in code editor (opens in a new tab)
+284 	45 	WARNING 	WordPress.Security.ValidatedSanitizedInput.InputNotSanitized 	Detected usage of a non-sanitized input variable: $_POST['nonce'] 	View in code editor (opens in a new tab)
+290 	26 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+290 	54 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+291 	25 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+291 	65 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+291 	65 	WARNING 	WordPress.Security.ValidatedSanitizedInput.MissingUnslash 	$_POST['status'] not unslashed before sanitization. Use wp_unslash() or similar 	View in code editor (opens in a new tab)
+312 	45 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+312 	45 	WARNING 	WordPress.Security.ValidatedSanitizedInput.InputNotValidated 	Detected usage of a possibly undefined superglobal array index: $_POST['nonce']. Use isset() or empty() to check the index exists before using it 	View in code editor (opens in a new tab)
+312 	45 	WARNING 	WordPress.Security.ValidatedSanitizedInput.MissingUnslash 	$_POST['nonce'] not unslashed before sanitization. Use wp_unslash() or similar 	View in code editor (opens in a new tab)
+312 	45 	WARNING 	WordPress.Security.ValidatedSanitizedInput.InputNotSanitized 	Detected usage of a non-sanitized input variable: $_POST['nonce'] 	View in code editor (opens in a new tab)
+315 	26 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+315 	54 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+316 	24 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+316 	43 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+316 	43 	WARNING 	WordPress.Security.ValidatedSanitizedInput.MissingUnslash 	$_POST['rules'] not unslashed before sanitization. Use wp_unslash() or similar 	View in code editor (opens in a new tab)
+316 	43 	WARNING 	WordPress.Security.ValidatedSanitizedInput.InputNotSanitized 	Detected usage of a non-sanitized input variable: $_POST['rules'] 	View in code editor (opens in a new tab)
+335 	45 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+335 	45 	WARNING 	WordPress.Security.ValidatedSanitizedInput.InputNotValidated 	Detected usage of a possibly undefined superglobal array index: $_POST['nonce']. Use isset() or empty() to check the index exists before using it 	View in code editor (opens in a new tab)
+335 	45 	WARNING 	WordPress.Security.ValidatedSanitizedInput.MissingUnslash 	$_POST['nonce'] not unslashed before sanitization. Use wp_unslash() or similar 	View in code editor (opens in a new tab)
+335 	45 	WARNING 	WordPress.Security.ValidatedSanitizedInput.InputNotSanitized 	Detected usage of a non-sanitized input variable: $_POST['nonce'] 	View in code editor (opens in a new tab)
+338 	26 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+338 	54 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+339 	23 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+339 	61 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+339 	61 	WARNING 	WordPress.Security.ValidatedSanitizedInput.MissingUnslash 	$_POST['date'] not unslashed before sanitization. Use wp_unslash() or similar 	View in code editor (opens in a new tab)
+340 	29 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+340 	73 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+340 	73 	WARNING 	WordPress.Security.ValidatedSanitizedInput.MissingUnslash 	$_POST['block_from'] not unslashed before sanitization. Use wp_unslash() or similar 	View in code editor (opens in a new tab)
+341 	27 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+341 	69 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+341 	69 	WARNING 	WordPress.Security.ValidatedSanitizedInput.MissingUnslash 	$_POST['block_to'] not unslashed before sanitization. Use wp_unslash() or similar 	View in code editor (opens in a new tab)
+342 	25 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+342 	65 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+342 	65 	WARNING 	WordPress.Security.ValidatedSanitizedInput.MissingUnslash 	$_POST['reason'] not unslashed before sanitization. Use wp_unslash() or similar 	View in code editor (opens in a new tab)
+361 	45 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+361 	45 	WARNING 	WordPress.Security.ValidatedSanitizedInput.InputNotValidated 	Detected usage of a possibly undefined superglobal array index: $_POST['nonce']. Use isset() or empty() to check the index exists before using it 	View in code editor (opens in a new tab)
+361 	45 	WARNING 	WordPress.Security.ValidatedSanitizedInput.MissingUnslash 	$_POST['nonce'] not unslashed before sanitization. Use wp_unslash() or similar 	View in code editor (opens in a new tab)
+361 	45 	WARNING 	WordPress.Security.ValidatedSanitizedInput.InputNotSanitized 	Detected usage of a non-sanitized input variable: $_POST['nonce'] 	View in code editor (opens in a new tab)
+364 	27 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+364 	56 	WARNING 	WordPress.Security.NonceVerification.Missing 	Processing form data without nonce verification. 	View in code editor (opens in a new tab)
+
+FILE: public/class-shortcode.php
+Line 	Column 	Type 	Code 	Message 	Edit Link
+52 	17 	WARNING 	WordPress.DB.DirectDatabaseQuery.DirectQuery 	Use of a direct database call is discouraged. 	View in code editor (opens in a new tab)
+52 	17 	WARNING 	WordPress.DB.DirectDatabaseQuery.NoCaching 	Direct database call without caching detected. Consider using wp_cache_get() / wp_cache_set() or wp_cache_delete(). 	View in code editor (opens in a new tab)
+
+FILE: public/class-form-handler.php
+Line 	Column 	Type 	Code 	Message 	Edit Link
+61 	17 	WARNING 	WordPress.DB.DirectDatabaseQuery.DirectQuery 	Use of a direct database call is discouraged. 	View in code editor (opens in a new tab)
+61 	17 	WARNING 	WordPress.DB.DirectDatabaseQuery.NoCaching 	Direct database call without caching detected. Consider using wp_cache_get() / wp_cache_set() or wp_cache_delete(). 	View in code editor (opens in a new tab)
+
+FILE: includes/class-booking.php
+Line 	Column 	Type 	Code 	Message 	Edit Link
+53 	19 	WARNING 	WordPress.DB.DirectDatabaseQuery.DirectQuery 	Use of a direct database call is discouraged. 	View in code editor (opens in a new tab)
+78 	21 	WARNING 	WordPress.DB.DirectDatabaseQuery.DirectQuery 	Use of a direct database call is discouraged. 	View in code editor (opens in a new tab)
+78 	21 	WARNING 	WordPress.DB.DirectDatabaseQuery.NoCaching 	Direct database call without caching detected. Consider using wp_cache_get() / wp_cache_set() or wp_cache_delete(). 	View in code editor (opens in a new tab)
+85 	13 	WARNING 	WordPress.DB.DirectDatabaseQuery.DirectQuery 	Use of a direct database call is discouraged. 	View in code editor (opens in a new tab)
+85 	13 	WARNING 	WordPress.DB.DirectDatabaseQuery.NoCaching 	Direct database call without caching detected. Consider using wp_cache_get() / wp_cache_set() or wp_cache_delete(). 	View in code editor (opens in a new tab)
+94 	13 	WARNING 	WordPress.DB.DirectDatabaseQuery.DirectQuery 	Use of a direct database call is discouraged. 	View in code editor (opens in a new tab)
+115 	21 	WARNING 	WordPress.DB.DirectDatabaseQuery.DirectQuery 	Use of a direct database call is discouraged. 	View in code editor (opens in a new tab)
+115 	21 	WARNING 	WordPress.DB.DirectDatabaseQuery.NoCaching 	Direct database call without caching detected. Consider using wp_cache_get() / wp_cache_set() or wp_cache_delete(). 	View in code editor (opens in a new tab)
+132 	20 	WARNING 	WordPress.DB.DirectDatabaseQuery.DirectQuery 	Use of a direct database call is discouraged. 	View in code editor (opens in a new tab)
+132 	20 	WARNING 	WordPress.DB.DirectDatabaseQuery.NoCaching 	Direct database call without caching detected. Consider using wp_cache_get() / wp_cache_set() or wp_cache_delete(). 	View in code editor (opens in a new tab)
+158 	20 	WARNING 	WordPress.DB.DirectDatabaseQuery.DirectQuery 	Use of a direct database call is discouraged. 	View in code editor (opens in a new tab)
+158 	20 	WARNING 	WordPress.DB.DirectDatabaseQuery.NoCaching 	Direct database call without caching detected. Consider using wp_cache_get() / wp_cache_set() or wp_cache_delete(). 	View in code editor (opens in a new tab)
+191 	19 	WARNING 	WordPress.DB.DirectDatabaseQuery.DirectQuery 	Use of a direct database call is discouraged. 	View in code editor (opens in a new tab)
+191 	19 	WARNING 	WordPress.DB.DirectDatabaseQuery.NoCaching 	Direct database call without caching detected. Consider using wp_cache_get() / wp_cache_set() or wp_cache_delete(). 	View in code editor (opens in a new tab)
+209 	16 	WARNING 	WordPress.DB.DirectDatabaseQuery.DirectQuery 	Use of a direct database call is discouraged. 	View in code editor (opens in a new tab)
+209 	16 	WARNING 	WordPress.DB.DirectDatabaseQuery.NoCaching 	Direct database call without caching detected. Consider using wp_cache_get() / wp_cache_set() or wp_cache_delete(). 	View in code editor (opens in a new tab)
+276 	16 	WARNING 	WordPress.DB.DirectDatabaseQuery.DirectQuery 	Use of a direct database call is discouraged. 	View in code editor (opens in a new tab)
+276 	16 	WARNING 	WordPress.DB.DirectDatabaseQuery.NoCaching 	Direct database call without caching detected. Consider using wp_cache_get() / wp_cache_set() or wp_cache_delete(). 	View in code editor (opens in a new tab)
+317 	16 	WARNING 	WordPress.DB.DirectDatabaseQuery.DirectQuery 	Use of a direct database call is discouraged. 	View in code editor (opens in a new tab)
+317 	16 	WARNING 	WordPress.DB.DirectDatabaseQuery.NoCaching 	Direct database call without caching detected. Consider using wp_cache_get() / wp_cache_set() or wp_cache_delete(). 	View in code editor (opens in a new tab)
+
+FILE: includes/class-availability.php
+Line 	Column 	Type 	Code 	Message 	Edit Link
+24 	18 	WARNING 	WordPress.DB.DirectDatabaseQuery.DirectQuery 	Use of a direct database call is discouraged. 	View in code editor (opens in a new tab)
+24 	18 	WARNING 	WordPress.DB.DirectDatabaseQuery.NoCaching 	Direct database call without caching detected. Consider using wp_cache_get() / wp_cache_set() or wp_cache_delete(). 	View in code editor (opens in a new tab)
+78 	18 	WARNING 	WordPress.DB.DirectDatabaseQuery.DirectQuery 	Use of a direct database call is discouraged. 	View in code editor (opens in a new tab)
+78 	18 	WARNING 	WordPress.DB.DirectDatabaseQuery.NoCaching 	Direct database call without caching detected. Consider using wp_cache_get() / wp_cache_set() or wp_cache_delete(). 	View in code editor (opens in a new tab)
+140 	21 	WARNING 	WordPress.DB.DirectDatabaseQuery.DirectQuery 	Use of a direct database call is discouraged. 	View in code editor (opens in a new tab)
+140 	21 	WARNING 	WordPress.DB.DirectDatabaseQuery.NoCaching 	Direct database call without caching detected. Consider using wp_cache_get() / wp_cache_set() or wp_cache_delete(). 	View in code editor (opens in a new tab)
+164 	20 	WARNING 	WordPress.DB.DirectDatabaseQuery.DirectQuery 	Use of a direct database call is discouraged. 	View in code editor (opens in a new tab)
+164 	20 	WARNING 	WordPress.DB.DirectDatabaseQuery.NoCaching 	Direct database call without caching detected. Consider using wp_cache_get() / wp_cache_set() or wp_cache_delete(). 	View in code editor (opens in a new tab)
+202 	18 	WARNING 	WordPress.DB.DirectDatabaseQuery.DirectQuery 	Use of a direct database call is discouraged. 	View in code editor (opens in a new tab)
+202 	18 	WARNING 	WordPress.DB.DirectDatabaseQuery.NoCaching 	Direct database call without caching detected. Consider using wp_cache_get() / wp_cache_set() or wp_cache_delete(). 	View in code editor (opens in a new tab)
+239 	16 	WARNING 	WordPress.DB.DirectDatabaseQuery.DirectQuery 	Use of a direct database call is discouraged. 	View in code editor (opens in a new tab)
+239 	16 	WARNING 	WordPress.DB.DirectDatabaseQuery.NoCaching 	Direct database call without caching detected. Consider using wp_cache_get() / wp_cache_set() or wp_cache_delete(). 	View in code editor (opens in a new tab)
+253 	9 	WARNING 	WordPress.DB.DirectDatabaseQuery.DirectQuery 	Use of a direct database call is discouraged. 	View in code editor (opens in a new tab)
+253 	9 	WARNING 	WordPress.DB.DirectDatabaseQuery.NoCaching 	Direct database call without caching detected. Consider using wp_cache_get() / wp_cache_set() or wp_cache_delete(). 	View in code editor (opens in a new tab)
+257 	13 	WARNING 	WordPress.DB.DirectDatabaseQuery.DirectQuery 	Use of a direct database call is discouraged. 	View in code editor (opens in a new tab)
+282 	16 	WARNING 	WordPress.DB.DirectDatabaseQuery.DirectQuery 	Use of a direct database call is discouraged. 	View in code editor (opens in a new tab)
+302 	16 	WARNING 	WordPress.DB.DirectDatabaseQuery.DirectQuery 	Use of a direct database call is discouraged. 	View in code editor (opens in a new tab)
+302 	16 	WARNING 	WordPress.DB.DirectDatabaseQuery.NoCaching 	Direct database call without caching detected. Consider using wp_cache_get() / wp_cache_set() or wp_cache_delete(). 	View in code editor (opens in a new tab)
+330 	16 	WARNING 	WordPress.DB.DirectDatabaseQuery.DirectQuery 	Use of a direct database call is discouraged. 	View in code editor (opens in a new tab)
+330 	16 	WARNING 	WordPress.DB.DirectDatabaseQuery.NoCaching 	Direct database call without caching detected. Consider using wp_cache_get() / wp_cache_set() or wp_cache_delete(). 	View in code editor (opens in a new tab)
+
+FILE: includes/class-email.php
+Line 	Column 	Type 	Code 	Message 	Edit Link
+38 	25 	WARNING 	WordPress.DB.DirectDatabaseQuery.DirectQuery 	Use of a direct database call is discouraged. 	View in code editor (opens in a new tab)
+38 	25 	WARNING 	WordPress.DB.DirectDatabaseQuery.NoCaching 	Direct database call without caching detected. Consider using wp_cache_get() / wp_cache_set() or wp_cache_delete(). 	View in code editor (opens in a new tab)
+65 	25 	WARNING 	WordPress.DB.DirectDatabaseQuery.DirectQuery 	Use of a direct database call is discouraged. 	View in code editor (opens in a new tab)
+65 	25 	WARNING 	WordPress.DB.DirectDatabaseQuery.NoCaching 	Direct database call without caching detected. Consider using wp_cache_get() / wp_cache_set() or wp_cache_delete(). 	View in code editor (opens in a new tab)
+
+FILE: includes/class-database.php
+Line 	Column 	Type 	Code 	Message 	Edit Link
+163 	24 	WARNING 	WordPress.DB.DirectDatabaseQuery.DirectQuery 	Use of a direct database call is discouraged. 	View in code editor (opens in a new tab)
+163 	24 	WARNING 	WordPress.DB.DirectDatabaseQuery.NoCaching 	Direct database call without caching detected. Consider using wp_cache_get() / wp_cache_set() or wp_cache_delete(). 	View in code editor (opens in a new tab)
+286 	9 	WARNING 	WordPress.DB.DirectDatabaseQuery.DirectQuery 	Use of a direct database call is discouraged. 	View in code editor (opens in a new tab)
+308 	13 	WARNING 	WordPress.DB.DirectDatabaseQuery.DirectQuery 	Use of a direct database call is discouraged. 	View in code editor (opens in a new tab)
+326 	9 	WARNING 	WordPress.DB.DirectDatabaseQuery.DirectQuery 	Use of a direct database call is discouraged. 	View in code editor (opens in a new tab)
+339 	9 	WARNING 	WordPress.DB.DirectDatabaseQuery.DirectQuery 	Use of a direct database call is discouraged. 	View in code editor (opens in a new tab)
+370 	13 	WARNING 	WordPress.DB.DirectDatabaseQuery.DirectQuery 	Use of a direct database call is discouraged. 	View in code editor (opens in a new tab)
+370 	13 	WARNING 	WordPress.DB.DirectDatabaseQuery.NoCaching 	Direct database call without caching detected. Consider using wp_cache_get() / wp_cache_set() or wp_cache_delete(). 	View in code editor (opens in a new tab)
+370 	26 	WARNING 	WordPress.DB.DirectDatabaseQuery.SchemaChange 	Attempting a database schema change is discouraged. 	View in code editor (opens in a new tab)
+
+FILE: integrations/elementor/class-elementor-widget.php
+Line 	Column 	Type 	Code 	Message 	Edit Link
+56 	18 	WARNING 	WordPress.DB.DirectDatabaseQuery.DirectQuery 	Use of a direct database call is discouraged. 	View in code editor (opens in a new tab)
+56 	18 	WARNING 	WordPress.DB.DirectDatabaseQuery.NoCaching 	Direct database call without caching detected. Consider using wp_cache_get() / wp_cache_set() or wp_cache_delete(). 	View in code editor (opens in a new tab)
+
+FILE: admin/class-booking-manager.php
+Line 	Column 	Type 	Code 	Message 	Edit Link
+194 	21 	WARNING 	WordPress.DB.DirectDatabaseQuery.DirectQuery 	Use of a direct database call is discouraged. 	View in code editor (opens in a new tab)
+194 	21 	WARNING 	WordPress.DB.DirectDatabaseQuery.NoCaching 	Direct database call without caching detected. Consider using wp_cache_get() / wp_cache_set() or wp_cache_delete(). 	View in code editor (opens in a new tab)
+268 	22 	WARNING 	WordPress.DB.DirectDatabaseQuery.DirectQuery 	Use of a direct database call is discouraged. 	View in code editor (opens in a new tab)
+268 	22 	WARNING 	WordPress.DB.DirectDatabaseQuery.NoCaching 	Direct database call without caching detected. Consider using wp_cache_get() / wp_cache_set() or wp_cache_delete(). 	View in code editor (opens in a new tab)
+
+FILE: admin/views/dashboard.php
+Line 	Column 	Type 	Code 	Message 	Edit Link
+14 	16 	WARNING 	WordPress.DB.DirectDatabaseQuery.DirectQuery 	Use of a direct database call is discouraged. 	View in code editor (opens in a new tab)
+14 	16 	WARNING 	WordPress.DB.DirectDatabaseQuery.NoCaching 	Direct database call without caching detected. Consider using wp_cache_get() / wp_cache_set() or wp_cache_delete(). 	View in code editor (opens in a new tab)
+15 	19 	WARNING 	WordPress.DB.DirectDatabaseQuery.DirectQuery 	Use of a direct database call is discouraged. 	View in code editor (opens in a new tab)
+15 	19 	WARNING 	WordPress.DB.DirectDatabaseQuery.NoCaching 	Direct database call without caching detected. Consider using wp_cache_get() / wp_cache_set() or wp_cache_delete(). 	View in code editor (opens in a new tab)
+16 	18 	WARNING 	WordPress.DB.DirectDatabaseQuery.DirectQuery 	Use of a direct database call is discouraged. 	View in code editor (opens in a new tab)
+16 	18 	WARNING 	WordPress.DB.DirectDatabaseQuery.NoCaching 	Direct database call without caching detected. Consider using wp_cache_get() / wp_cache_set() or wp_cache_delete(). 	View in code editor (opens in a new tab)
+17 	19 	WARNING 	WordPress.DB.DirectDatabaseQuery.DirectQuery 	Use of a direct database call is discouraged. 	View in code editor (opens in a new tab)
+17 	19 	WARNING 	WordPress.DB.DirectDatabaseQuery.NoCaching 	Direct database call without caching detected. Consider using wp_cache_get() / wp_cache_set() or wp_cache_delete(). 	View in code editor (opens in a new tab)
+23 	20 	WARNING 	WordPress.DB.DirectDatabaseQuery.DirectQuery 	Use of a direct database call is discouraged. 	View in code editor (opens in a new tab)
+23 	20 	WARNING 	WordPress.DB.DirectDatabaseQuery.NoCaching 	Direct database call without caching detected. Consider using wp_cache_get() / wp_cache_set() or wp_cache_delete(). 	View in code editor (opens in a new tab)
+
+FILE: admin/views/availability.php
+Line 	Column 	Type 	Code 	Message 	Edit Link
+21 	9 	WARNING 	WordPress.DB.DirectDatabaseQuery.DirectQuery 	Use of a direct database call is discouraged. 	View in code editor (opens in a new tab)
+21 	9 	WARNING 	WordPress.DB.DirectDatabaseQuery.NoCaching 	Direct database call without caching detected. Consider using wp_cache_get() / wp_cache_set() or wp_cache_delete(). 	View in code editor (opens in a new tab)
+
+FILE: admin/views/calendar.php
+Line 	Column 	Type 	Code 	Message 	Edit Link
+14 	10 	WARNING 	WordPress.DB.DirectDatabaseQuery.DirectQuery 	Use of a direct database call is discouraged. 	View in code editor (opens in a new tab)
+14 	10 	WARNING 	WordPress.DB.DirectDatabaseQuery.NoCaching 	Direct database call without caching detected. Consider using wp_cache_get() / wp_cache_set() or wp_cache_delete(). 	View in code editor (opens in a new tab)
+
+FILE: admin/views/forms-list.php
+Line 	Column 	Type 	Code 	Message 	Edit Link
+14 	10 	WARNING 	WordPress.DB.DirectDatabaseQuery.DirectQuery 	Use of a direct database call is discouraged. 	View in code editor (opens in a new tab)
+14 	10 	WARNING 	WordPress.DB.DirectDatabaseQuery.NoCaching 	Direct database call without caching detected. Consider using wp_cache_get() / wp_cache_set() or wp_cache_delete(). 	View in code editor (opens in a new tab)
+
+FILE: admin/views/form-builder.php
+Line 	Column 	Type 	Code 	Message 	Edit Link
+19 	18 	WARNING 	WordPress.DB.DirectDatabaseQuery.DirectQuery 	Use of a direct database call is discouraged. 	View in code editor (opens in a new tab)
+19 	18 	WARNING 	WordPress.DB.DirectDatabaseQuery.NoCaching 	Direct database call without caching detected. Consider using wp_cache_get() / wp_cache_set() or wp_cache_delete(). 	View in code editor (opens in a new tab)
+
+FILE: admin/views/bookings-list.php
+Line 	Column 	Type 	Code 	Message 	Edit Link
+14 	10 	WARNING 	WordPress.DB.DirectDatabaseQuery.DirectQuery 	Use of a direct database call is discouraged. 	View in code editor (opens in a new tab)
+14 	10 	WARNING 	WordPress.DB.DirectDatabaseQuery.NoCaching 	Direct database call without caching detected. Consider using wp_cache_get() / wp_cache_set() or wp_cache_delete(). 	View in code editor (opens in a new tab)
+
+FILE: admin/views/customers.php
+Line 	Column 	Type 	Code 	Message 	Edit Link
+14 	14 	WARNING 	WordPress.DB.DirectDatabaseQuery.DirectQuery 	Use of a direct database call is discouraged. 	View in code editor (opens in a new tab)
+14 	14 	WARNING 	WordPress.DB.DirectDatabaseQuery.NoCaching 	Direct database call without caching detected. Consider using wp_cache_get() / wp_cache_set() or wp_cache_delete(). 	View in code editor (opens in a new tab)
+
+FILE: admin/class-form-builder.php
+Line 	Column 	Type 	Code 	Message 	Edit Link
+81 	13 	WARNING 	WordPress.DB.DirectDatabaseQuery.DirectQuery 	Use of a direct database call is discouraged. 	View in code editor (opens in a new tab)
+81 	13 	WARNING 	WordPress.DB.DirectDatabaseQuery.NoCaching 	Direct database call without caching detected. Consider using wp_cache_get() / wp_cache_set() or wp_cache_delete(). 	View in code editor (opens in a new tab)
+98 	13 	WARNING 	WordPress.DB.DirectDatabaseQuery.DirectQuery 	Use of a direct database call is discouraged. 	View in code editor (opens in a new tab)
+125 	13 	WARNING 	WordPress.DB.DirectDatabaseQuery.DirectQuery 	Use of a direct database call is discouraged. 	View in code editor (opens in a new tab)
+157 	9 	WARNING 	WordPress.DB.DirectDatabaseQuery.DirectQuery 	Use of a direct database call is discouraged. 	View in code editor (opens in a new tab)
+157 	9 	WARNING 	WordPress.DB.DirectDatabaseQuery.NoCaching 	Direct database call without caching detected. Consider using wp_cache_get() / wp_cache_set() or wp_cache_delete(). 	View in code editor (opens in a new tab)
+164 	9 	WARNING 	WordPress.DB.DirectDatabaseQuery.DirectQuery 	Use of a direct database call is discouraged. 	View in code editor (opens in a new tab)
+164 	9 	WARNING 	WordPress.DB.DirectDatabaseQuery.NoCaching 	Direct database call without caching detected. Consider using wp_cache_get() / wp_cache_set() or wp_cache_delete(). 	View in code editor (opens in a new tab)
+171 	9 	WARNING 	WordPress.DB.DirectDatabaseQuery.DirectQuery 	Use of a direct database call is discouraged. 	View in code editor (opens in a new tab)
+171 	9 	WARNING 	WordPress.DB.DirectDatabaseQuery.NoCaching 	Direct database call without caching detected. Consider using wp_cache_get() / wp_cache_set() or wp_cache_delete(). 	View in code editor (opens in a new tab)
+197 	17 	WARNING 	WordPress.DB.DirectDatabaseQuery.DirectQuery 	Use of a direct database call is discouraged. 	View in code editor (opens in a new tab)
+197 	17 	WARNING 	WordPress.DB.DirectDatabaseQuery.NoCaching 	Direct database call without caching detected. Consider using wp_cache_get() / wp_cache_set() or wp_cache_delete(). 	View in code editor (opens in a new tab)
+211 	9 	WARNING 	WordPress.DB.DirectDatabaseQuery.DirectQuery 	Use of a direct database call is discouraged. 	View in code editor (opens in a new tab)
+216 	31 	WARNING 	WordPress.DB.DirectDatabaseQuery.DirectQuery 	Use of a direct database call is discouraged. 	View in code editor (opens in a new tab)
+216 	31 	WARNING 	WordPress.DB.DirectDatabaseQuery.NoCaching 	Direct database call without caching detected. Consider using wp_cache_get() / wp_cache_set() or wp_cache_delete(). 	View in code editor (opens in a new tab)
+225 	13 	WARNING 	WordPress.DB.DirectDatabaseQuery.DirectQuery 	Use of a direct database call is discouraged. 	View in code editor (opens in a new tab)
+230 	26 	WARNING 	WordPress.DB.DirectDatabaseQuery.DirectQuery 	Use of a direct database call is discouraged. 	View in code editor (opens in a new tab)
+230 	26 	WARNING 	WordPress.DB.DirectDatabaseQuery.NoCaching 	Direct database call without caching detected. Consider using wp_cache_get() / wp_cache_set() or wp_cache_delete(). 	View in code editor (opens in a new tab)
+240 	13 	WARNING 	WordPress.DB.DirectDatabaseQuery.DirectQuery 	Use of a direct database call is discouraged. 	View in code editor (opens in a new tab)
+265 	17 	WARNING 	WordPress.DB.DirectDatabaseQuery.DirectQuery 	Use of a direct database call is discouraged. 	View in code editor (opens in a new tab)
+265 	17 	WARNING 	WordPress.DB.DirectDatabaseQuery.NoCaching 	Direct database call without caching detected. Consider using wp_cache_get() / wp_cache_set() or wp_cache_delete(). 	View in code editor (opens in a new tab)
+297 	9 	WARNING 	WordPress.DB.DirectDatabaseQuery.DirectQuery 	Use of a direct database call is discouraged. 	View in code editor (opens in a new tab)
+297 	9 	WARNING 	WordPress.DB.DirectDatabaseQuery.NoCaching 	Direct database call without caching detected. Consider using wp_cache_get() / wp_cache_set() or wp_cache_delete(). 	View in code editor (opens in a new tab)
+
+FILE: readme.txt
+Line 	Column 	Type 	Code 	Message
+0 	0 	ERROR 	no_plugin_readme 	The plugin readme.txt does not exist.
+
+FILE: admin/views/dashboard.php
+Line 	Column 	Type 	Code 	Message 	Edit Link
+14 	1 	ERROR 	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound 	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$forms_count". 	View in code editor (opens in a new tab)
+15 	1 	ERROR 	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound 	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$bookings_count". 	View in code editor (opens in a new tab)
+16 	1 	ERROR 	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound 	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$pending_count". 	View in code editor (opens in a new tab)
+17 	1 	ERROR 	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound 	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$today_bookings". 	View in code editor (opens in a new tab)
+23 	1 	ERROR 	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound 	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$recent_bookings". 	View in code editor (opens in a new tab)
+91 	60 	ERROR 	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound 	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$booking". 	View in code editor (opens in a new tab)
+
+FILE: admin/views/availability.php
+Line 	Column 	Type 	Code 	Message 	Edit Link
+11 	1 	ERROR 	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound 	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$form_id". 	View in code editor (opens in a new tab)
+21 	1 	ERROR 	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound 	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$form". 	View in code editor (opens in a new tab)
+32 	1 	ERROR 	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound 	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$availability_rules". 	View in code editor (opens in a new tab)
+35 	1 	ERROR 	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound 	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$blocked_dates". 	View in code editor (opens in a new tab)
+37 	1 	ERROR 	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound 	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$days_of_week". 	View in code editor (opens in a new tab)
+74 	21 	ERROR 	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound 	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$rules_by_day". 	View in code editor (opens in a new tab)
+75 	53 	ERROR 	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound 	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$rule". 	View in code editor (opens in a new tab)
+77 	29 	ERROR 	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound 	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$rules_by_day". 	View in code editor (opens in a new tab)
+79 	25 	ERROR 	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound 	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$rules_by_day". 	View in code editor (opens in a new tab)
+83 	26 	ERROR 	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound 	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$day". 	View in code editor (opens in a new tab)
+84 	25 	ERROR 	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound 	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$day_rules". 	View in code editor (opens in a new tab)
+111 	52 	ERROR 	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound 	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$index". 	View in code editor (opens in a new tab)
+111 	62 	ERROR 	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound 	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$rule". 	View in code editor (opens in a new tab)
+224 	58 	ERROR 	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound 	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$blocked". 	View in code editor (opens in a new tab)
+
+FILE: admin/views/calendar.php
+Line 	Column 	Type 	Code 	Message 	Edit Link
+14 	1 	ERROR 	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound 	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$forms". 	View in code editor (opens in a new tab)
+47 	42 	ERROR 	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound 	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$form". 	View in code editor (opens in a new tab)
+
+FILE: admin/views/forms-list.php
+Line 	Column 	Type 	Code 	Message 	Edit Link
+14 	1 	ERROR 	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound 	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$forms". 	View in code editor (opens in a new tab)
+41 	42 	ERROR 	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound 	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$form". 	View in code editor (opens in a new tab)
+
+FILE: admin/views/form-builder.php
+Line 	Column 	Type 	Code 	Message 	Edit Link
+11 	1 	ERROR 	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound 	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$form_id". 	View in code editor (opens in a new tab)
+12 	1 	ERROR 	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound 	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$is_edit". 	View in code editor (opens in a new tab)
+14 	1 	ERROR 	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound 	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$form_data". 	View in code editor (opens in a new tab)
+18 	5 	ERROR 	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound 	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$table". 	View in code editor (opens in a new tab)
+19 	5 	ERROR 	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound 	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$form_data". 	View in code editor (opens in a new tab)
+27 	5 	ERROR 	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound 	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$form_data". 	View in code editor (opens in a new tab)
+28 	5 	ERROR 	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound 	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$form_data". 	View in code editor (opens in a new tab)
+29 	5 	ERROR 	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound 	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$form_data". 	View in code editor (opens in a new tab)
+30 	5 	ERROR 	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound 	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$form_data". 	View in code editor (opens in a new tab)
+33 	1 	ERROR 	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound 	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$field_types". 	View in code editor (opens in a new tab)
+45 	57 	ERROR 	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound 	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$field". 	View in code editor (opens in a new tab)
+
+FILE: admin/views/bookings-list.php
+Line 	Column 	Type 	Code 	Message 	Edit Link
+14 	1 	ERROR 	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound 	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$forms". 	View in code editor (opens in a new tab)
+27 	38 	ERROR 	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound 	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$form". 	View in code editor (opens in a new tab)
+
+FILE: admin/views/customers.php
+Line 	Column 	Type 	Code 	Message 	Edit Link
+14 	1 	ERROR 	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound 	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$customers". 	View in code editor (opens in a new tab)
+48 	46 	ERROR 	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound 	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$customer". 	View in code editor (opens in a new tab)
+
+FILE: includes/class-booking.php
+Line 	Column 	Type 	Code 	Message 	Edit Link
+276 	23 	ERROR 	PluginCheck.Security.DirectDB.UnescapedDBParameter 	Unescaped parameter $sql used in $wpdb->get_results($sql)\n$sql assigned unsafely at line 273:\n $sql = $wpdb->prepare($sql, $where_values)\n$sql assigned unsafely at line 268:\n $sql = "SELECT * FROM $table WHERE $where_clause ORDER BY $orderby LIMIT %d OFFSET %d"\n$where_clause assigned unsafely at line 264:\n $where_clause = implode(' AND ', $where)\n$where assigned unsafely at line 257:\n $where[] = '(customer_name LIKE %s OR customer_email LIKE %s OR customer_phone LIKE %s)'\n$search_term assigned unsafely at line 258:\n $search_term = '%' . $wpdb->esc_like($args['search']) . '%'\n$args['search'] used without escaping. 	View in code editor (opens in a new tab)
+317 	23 	ERROR 	PluginCheck.Security.DirectDB.UnescapedDBParameter 	Unescaped parameter $sql used in $wpdb->get_var($sql)\n$sql assigned unsafely at line 314:\n $sql = $wpdb->prepare($sql, $where_values)\n$sql assigned unsafely at line 311:\n $sql = "SELECT COUNT(*) FROM $table WHERE $where_clause"\n$table assigned unsafely at line 284:\n $table = $wpdb->prefix . 'fluentbooking_bookings'\n$where_clause assigned unsafely at line 309:\n $where_clause = implode(' AND ', $where)\n$where assigned unsafely at line 305:\n $where[] = 'booking_date <= %s'\n$where_values[] used without escaping.\n$args['date_to'] used without escaping. 	View in code editor (opens in a new tab)
+78 	28 	WARNING 	PluginCheck.Security.DirectDB.UnescapedDBParameter 	Unescaped parameter $table used in $wpdb->get_row($wpdb->prepare(\n "SELECT * FROM $table WHERE email = %s",\n $email\n ))\n$table assigned unsafely at line 75:\n $table = $wpdb->prefix . 'fluentbooking_customers'\n$email assigned unsafely at line 77:\n $email = sanitize_email($data['customer_email'])\n$data['customer_email'] used without escaping. 	View in code editor (opens in a new tab)
+115 	28 	WARNING 	PluginCheck.Security.DirectDB.UnescapedDBParameter 	Unescaped parameter $table used in $wpdb->get_var($wpdb->prepare(\n "SELECT COUNT(*) FROM $table\n WHERE form_id = %d\n AND booking_date = %s\n AND booking_time = %s\n AND status NOT IN ('cancelled')",\n $form_id,\n $date,\n $time\n ))\n$table assigned unsafely at line 112:\n $table = $wpdb->prefix . 'fluentbooking_bookings'\n$existing assigned unsafely at line 115:\n $existing = $wpdb->get_var($wpdb->prepare(\n "SELECT COUNT(*) FROM $table\n WHERE form_id = %d\n AND booking_date = %s\n AND booking_time = %s\n AND status NOT IN ('cancelled')",\n $form_id,\n $date,\n $time\n ))\n$form_id used without escaping.\n$date used without escaping.\n$time used without escaping. 	View in code editor (opens in a new tab)
+132 	27 	WARNING 	PluginCheck.Security.DirectDB.UnescapedDBParameter 	Unescaped parameter $blocked_table used in $wpdb->get_var($wpdb->prepare(\n "SELECT COUNT(*) FROM $blocked_table\n WHERE form_id = %d\n AND blocked_date = %s\n AND (blocked_from IS NULL OR %s >= blocked_from)\n AND (blocked_to IS NULL OR %s <= blocked_to)",\n $form_id,\n $date,\n $time,\n $time\n ))\n$blocked_table assigned unsafely at line 131:\n $blocked_table = $wpdb->prefix . 'fluentbooking_blocked_dates'\n$blocked assigned unsafely at line 132:\n $blocked = $wpdb->get_var($wpdb->prepare(\n "SELECT COUNT(*) FROM $blocked_table\n WHERE form_id = %d\n AND blocked_date = %s\n AND (blocked_from IS NULL OR %s >= blocked_from)\n AND (blocked_to IS NULL OR %s <= blocked_to)",\n $form_id,\n $date,\n $time,\n $time\n ))\n$form_id used without escaping.\n$date used without escaping.\n$time used without escaping. 	View in code editor (opens in a new tab)
+158 	27 	WARNING 	PluginCheck.Security.DirectDB.UnescapedDBParameter 	Unescaped parameter $table used in $wpdb->get_row($wpdb->prepare(\n "SELECT * FROM $table WHERE id = %d",\n $booking_id\n ))\n$table assigned unsafely at line 156:\n $table = $wpdb->prefix . 'fluentbooking_bookings'\n$booking assigned unsafely at line 158:\n $booking = $wpdb->get_row($wpdb->prepare(\n "SELECT * FROM $table WHERE id = %d",\n $booking_id\n ), ARRAY_A)\n$booking_id used without escaping. 	View in code editor (opens in a new tab)
+
+FILE: includes/class-availability.php
+Line 	Column 	Type 	Code 	Message 	Edit Link
+330 	23 	ERROR 	PluginCheck.Security.DirectDB.UnescapedDBParameter 	Unescaped parameter $sql used in $wpdb->get_results($sql)\n$sql assigned unsafely at line 328:\n $sql = $wpdb->prepare($sql, $values)\n$sql assigned unsafely at line 327:\n $sql = "SELECT * FROM $table WHERE $where_clause ORDER BY blocked_date"\n$table assigned unsafely at line 310:\n $table = $wpdb->prefix . 'fluentbooking_blocked_dates'\n$where_clause assigned unsafely at line 325:\n $where_clause = implode(' AND ', $where)\n$where assigned unsafely at line 321:\n $where[] = 'blocked_date <= %s'\n$values[] used without escaping. 	View in code editor (opens in a new tab)
+24 	25 	WARNING 	PluginCheck.Security.DirectDB.UnescapedDBParameter 	Unescaped parameter $availability_table used in $wpdb->get_results($wpdb->prepare(\n "SELECT * FROM $availability_table\n WHERE form_id = %d\n AND day_of_week = %d\n AND is_available = 1",\n $form_id,\n $day_of_week\n ))\n$availability_table assigned unsafely at line 23:\n $availability_table = $wpdb->prefix . 'fluentbooking_availability'\n$rules assigned unsafely at line 24:\n $rules = $wpdb->get_results($wpdb->prepare(\n "SELECT * FROM $availability_table\n WHERE form_id = %d\n AND day_of_week = %d\n AND is_available = 1",\n $form_id,\n $day_of_week\n ))\n$form_id used without escaping.\n$day_of_week assigned unsafely at line 20:\n $day_of_week = date('w', strtotime($date))\n$date used without escaping. 	View in code editor (opens in a new tab)
+78 	25 	WARNING 	PluginCheck.Security.DirectDB.UnescapedDBParameter 	Unescaped parameter $availability_table used in $wpdb->get_results($wpdb->prepare(\n "SELECT * FROM $availability_table\n WHERE form_id = %d\n AND day_of_week = %d\n AND is_available = 1",\n $form_id,\n $day_of_week\n ))\n$availability_table assigned unsafely at line 77:\n $availability_table = $wpdb->prefix . 'fluentbooking_availability'\n$rules assigned unsafely at line 78:\n $rules = $wpdb->get_results($wpdb->prepare(\n "SELECT * FROM $availability_table\n WHERE form_id = %d\n AND day_of_week = %d\n AND is_available = 1",\n $form_id,\n $day_of_week\n ))\n$form_id used without escaping.\n$day_of_week assigned unsafely at line 74:\n $day_of_week = date('w', strtotime($date))\n$date used without escaping. 	View in code editor (opens in a new tab)
+140 	28 	WARNING 	PluginCheck.Security.DirectDB.UnescapedDBParameter 	Unescaped parameter $table used in $wpdb->get_results($wpdb->prepare(\n "SELECT booking_time FROM $table\n WHERE form_id = %d\n AND booking_date = %s\n AND status NOT IN ('cancelled')",\n $form_id,\n $date\n ))\n$table assigned unsafely at line 138:\n $table = $wpdb->prefix . 'fluentbooking_bookings'\n$bookings assigned unsafely at line 140:\n $bookings = $wpdb->get_results($wpdb->prepare(\n "SELECT booking_time FROM $table\n WHERE form_id = %d\n AND booking_date = %s\n AND status NOT IN ('cancelled')",\n $form_id,\n $date\n ))\n$form_id used without escaping.\n$date used without escaping. 	View in code editor (opens in a new tab)
+164 	27 	WARNING 	PluginCheck.Security.DirectDB.UnescapedDBParameter 	Unescaped parameter $table used in $wpdb->get_results($wpdb->prepare(\n "SELECT blocked_from, blocked_to FROM $table\n WHERE form_id = %d\n AND blocked_date = %s",\n $form_id,\n $date\n ))\n$table assigned unsafely at line 162:\n $table = $wpdb->prefix . 'fluentbooking_blocked_dates'\n$blocked assigned unsafely at line 164:\n $blocked = $wpdb->get_results($wpdb->prepare(\n "SELECT blocked_from, blocked_to FROM $table\n WHERE form_id = %d\n AND blocked_date = %s",\n $form_id,\n $date\n ))\n$form_id used without escaping.\n$date used without escaping. 	View in code editor (opens in a new tab)
+202 	25 	WARNING 	PluginCheck.Security.DirectDB.UnescapedDBParameter 	Unescaped parameter $availability_table used in $wpdb->get_results($wpdb->prepare(\n "SELECT * FROM $availability_table\n WHERE form_id = %d\n AND day_of_week = %d",\n $form_id,\n $day_of_week\n ))\n$availability_table assigned unsafely at line 201:\n $availability_table = $wpdb->prefix . 'fluentbooking_availability'\n$rules assigned unsafely at line 202:\n $rules = $wpdb->get_results($wpdb->prepare(\n "SELECT * FROM $availability_table\n WHERE form_id = %d\n AND day_of_week = %d",\n $form_id,\n $day_of_week\n ))\n$form_id used without escaping.\n$day_of_week assigned unsafely at line 198:\n $day_of_week = date('w', strtotime($date))\n$date used without escaping. 	View in code editor (opens in a new tab)
+239 	23 	WARNING 	PluginCheck.Security.DirectDB.UnescapedDBParameter 	Unescaped parameter $table used in $wpdb->get_results($wpdb->prepare(\n "SELECT * FROM $table WHERE form_id = %d ORDER BY day_of_week, start_time",\n $form_id\n ))\n$table assigned unsafely at line 237:\n $table = $wpdb->prefix . 'fluentbooking_availability'\n$form_id used without escaping. 	View in code editor (opens in a new tab)
+
+FILE: public/class-shortcode.php
+Line 	Column 	Type 	Code 	Message 	Edit Link
+52 	24 	WARNING 	PluginCheck.Security.DirectDB.UnescapedDBParameter 	Unescaped parameter $table used in $wpdb->get_row($wpdb->prepare("SELECT * FROM $table WHERE id = %d AND status = 'active'", $form_id))\n$table assigned unsafely at line 51:\n $table = $wpdb->prefix . 'fluentbooking_forms'\n$form assigned unsafely at line 52:\n $form = $wpdb->get_row($wpdb->prepare("SELECT * FROM $table WHERE id = %d AND status = 'active'", $form_id), ARRAY_A) 	View in code editor (opens in a new tab)
+
+FILE: public/class-form-handler.php
+Line 	Column 	Type 	Code 	Message 	Edit Link
+61 	24 	WARNING 	PluginCheck.Security.DirectDB.UnescapedDBParameter 	Unescaped parameter $table used in $wpdb->get_row($wpdb->prepare("SELECT * FROM $table WHERE id = %d AND status = 'active'", $form_id))\n$table assigned unsafely at line 60:\n $table = $wpdb->prefix . 'fluentbooking_forms'\n$form assigned unsafely at line 61:\n $form = $wpdb->get_row($wpdb->prepare("SELECT * FROM $table WHERE id = %d AND status = 'active'", $form_id), ARRAY_A) 	View in code editor (opens in a new tab)
+
+FILE: includes/class-database.php
+Line 	Column 	Type 	Code 	Message 	Edit Link
+163 	31 	WARNING 	PluginCheck.Security.DirectDB.UnescapedDBParameter 	Unescaped parameter $forms_table used in $wpdb->get_var("SELECT COUNT(*) FROM $forms_table")\n$forms_table assigned unsafely at line 160:\n $forms_table = $wpdb->prefix . 'fluentbooking_forms'\n$form_exists assigned unsafely at line 163:\n $form_exists = $wpdb->get_var("SELECT COUNT(*) FROM $forms_table") 	View in code editor (opens in a new tab)
+
+FILE: admin/class-booking-manager.php
+Line 	Column 	Type 	Code 	Message 	Edit Link
+194 	28 	WARNING 	PluginCheck.Security.DirectDB.UnescapedDBParameter 	Unescaped parameter $table used in $wpdb->get_results($wpdb->prepare(\n "SELECT * FROM $table WHERE customer_email = %s ORDER BY booking_date DESC, booking_time DESC",\n $customer_email\n ))\n$table assigned unsafely at line 192:\n $table = $wpdb->prefix . 'fluentbooking_bookings'\n$bookings assigned unsafely at line 194:\n $bookings = $wpdb->get_results($wpdb->prepare(\n "SELECT * FROM $table WHERE customer_email = %s ORDER BY booking_date DESC, booking_time DESC",\n $customer_email\n ), ARRAY_A)\n$customer_email assigned unsafely at line 185:\n $customer_email = isset($_POST['customer_email']) ? sanitize_email($_POST['customer_email']) : ''\n$_POST['customer_email'] used without escaping. 	View in code editor (opens in a new tab)
+268 	29 	WARNING 	PluginCheck.Security.DirectDB.UnescapedDBParameter 	Unescaped parameter $table used in $wpdb->get_results("SELECT * FROM $table ORDER BY created_at DESC")\n$table assigned unsafely at line 266:\n $table = $wpdb->prefix . 'fluentbooking_customers'\n$customers assigned unsafely at line 268:\n $customers = $wpdb->get_results(\n "SELECT * FROM $table ORDER BY created_at DESC",\n ARRAY_A\n ) 	View in code editor (opens in a new tab)
+
+FILE: admin/views/form-builder.php
+Line 	Column 	Type 	Code 	Message 	Edit Link
+19 	25 	WARNING 	PluginCheck.Security.DirectDB.UnescapedDBParameter 	Unescaped parameter $table used in $wpdb->get_row($wpdb->prepare("SELECT * FROM $table WHERE id = %d", $form_id))\n$table assigned unsafely at line 18:\n $table = $wpdb->prefix . 'fluentbooking_forms'\n$form_data assigned unsafely at line 19:\n $form_data = $wpdb->get_row($wpdb->prepare("SELECT * FROM $table WHERE id = %d", $form_id), ARRAY_A) 	View in code editor (opens in a new tab)
+
+FILE: admin/class-form-builder.php
+Line 	Column 	Type 	Code 	Message 	Edit Link
+216 	38 	WARNING 	PluginCheck.Security.DirectDB.UnescapedDBParameter 	Unescaped parameter $availability_table used in $wpdb->get_results($wpdb->prepare(\n "SELECT * FROM $availability_table WHERE form_id = %d",\n $form_id\n ))\n$availability_table assigned unsafely at line 215:\n $availability_table = $wpdb->prefix . 'fluentbooking_availability'\n$availability_rules assigned unsafely at line 216:\n $availability_rules = $wpdb->get_results($wpdb->prepare(\n "SELECT * FROM $availability_table WHERE form_id = %d",\n $form_id\n ), ARRAY_A) 	View in code editor (opens in a new tab)
+230 	33 	WARNING 	PluginCheck.Security.DirectDB.UnescapedDBParameter 	Unescaped parameter $notifications_table used in $wpdb->get_results($wpdb->prepare(\n "SELECT * FROM $notifications_table WHERE form_id = %d",\n $form_id\n ))\n$notifications_table assigned unsafely at line 229:\n $notifications_table = $wpdb->prefix . 'fluentbooking_notifications'\n$notifications assigned unsafely at line 230:\n $notifications = $wpdb->get_results($wpdb->prepare(\n "SELECT * FROM $notifications_table WHERE form_id = %d",\n $form_id\n ), ARRAY_A) 	View in code editor (opens in a new tab)

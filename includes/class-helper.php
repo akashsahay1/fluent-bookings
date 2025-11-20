@@ -99,10 +99,10 @@ class Fluent_Booking_Helper {
      */
     public static function get_booking_statuses() {
         return array(
-            'pending' => __('Pending', 'fluent-bookings'),
-            'confirmed' => __('Confirmed', 'fluent-bookings'),
-            'cancelled' => __('Cancelled', 'fluent-bookings'),
-            'completed' => __('Completed', 'fluent-bookings')
+            'pending' => __('Pending', 'fluent-booking'),
+            'confirmed' => __('Confirmed', 'fluent-booking'),
+            'cancelled' => __('Cancelled', 'fluent-booking'),
+            'completed' => __('Completed', 'fluent-booking')
         );
     }
 
@@ -168,7 +168,7 @@ class Fluent_Booking_Helper {
      */
     public static function verify_nonce($nonce, $action = 'fluent_booking_admin_nonce') {
         if (!wp_verify_nonce($nonce, $action)) {
-            self::send_error(__('Security check failed', 'fluent-bookings'));
+            self::send_error(__('Security check failed', 'fluent-booking'));
         }
     }
 
@@ -177,7 +177,7 @@ class Fluent_Booking_Helper {
      */
     public static function check_admin_permission() {
         if (!current_user_can('manage_options')) {
-            self::send_error(__('You do not have permission to perform this action', 'fluent-bookings'));
+            self::send_error(__('You do not have permission to perform this action', 'fluent-booking'));
         }
     }
 
@@ -186,13 +186,13 @@ class Fluent_Booking_Helper {
      */
     public static function get_days_of_week() {
         return array(
-            0 => __('Sunday', 'fluent-bookings'),
-            1 => __('Monday', 'fluent-bookings'),
-            2 => __('Tuesday', 'fluent-bookings'),
-            3 => __('Wednesday', 'fluent-bookings'),
-            4 => __('Thursday', 'fluent-bookings'),
-            5 => __('Friday', 'fluent-bookings'),
-            6 => __('Saturday', 'fluent-bookings')
+            0 => __('Sunday', 'fluent-booking'),
+            1 => __('Monday', 'fluent-booking'),
+            2 => __('Tuesday', 'fluent-booking'),
+            3 => __('Wednesday', 'fluent-booking'),
+            4 => __('Thursday', 'fluent-booking'),
+            5 => __('Friday', 'fluent-booking'),
+            6 => __('Saturday', 'fluent-booking')
         );
     }
 

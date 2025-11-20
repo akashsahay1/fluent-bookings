@@ -38,8 +38,8 @@ class Fluent_Booking_Admin_Menu {
     public function register_menu() {
         // Main menu
         add_menu_page(
-            __('Fluent Bookings', 'fluent-bookings'),
-            __('Fluent Bookings', 'fluent-bookings'),
+            __('Fluent Bookings', 'fluent-booking'),
+            __('Fluent Bookings', 'fluent-booking'),
             'manage_options',
             'fluent-booking',
             array($this, 'render_dashboard_page'),
@@ -50,8 +50,8 @@ class Fluent_Booking_Admin_Menu {
         // Dashboard
         add_submenu_page(
             'fluent-booking',
-            __('Dashboard', 'fluent-bookings'),
-            __('Dashboard', 'fluent-bookings'),
+            __('Dashboard', 'fluent-booking'),
+            __('Dashboard', 'fluent-booking'),
             'manage_options',
             'fluent-booking',
             array($this, 'render_dashboard_page')
@@ -60,8 +60,8 @@ class Fluent_Booking_Admin_Menu {
         // All Forms
         add_submenu_page(
             'fluent-booking',
-            __('All Forms', 'fluent-bookings'),
-            __('All Forms', 'fluent-bookings'),
+            __('All Forms', 'fluent-booking'),
+            __('All Forms', 'fluent-booking'),
             'manage_options',
             'fluent-booking-forms',
             array($this, 'render_forms_page')
@@ -70,8 +70,8 @@ class Fluent_Booking_Admin_Menu {
         // Add New Form
         add_submenu_page(
             'fluent-booking',
-            __('Add New Form', 'fluent-bookings'),
-            __('Add New Form', 'fluent-bookings'),
+            __('Add New Form', 'fluent-booking'),
+            __('Add New Form', 'fluent-booking'),
             'manage_options',
             'fluent-booking-add-form',
             array($this, 'render_add_form_page')
@@ -80,8 +80,8 @@ class Fluent_Booking_Admin_Menu {
         // Edit Form (hidden)
         add_submenu_page(
             null,
-            __('Edit Form', 'fluent-bookings'),
-            __('Edit Form', 'fluent-bookings'),
+            __('Edit Form', 'fluent-booking'),
+            __('Edit Form', 'fluent-booking'),
             'manage_options',
             'fluent-booking-edit-form',
             array($this, 'render_edit_form_page')
@@ -90,8 +90,8 @@ class Fluent_Booking_Admin_Menu {
         // Availability (hidden)
         add_submenu_page(
             null,
-            __('Manage Availability', 'fluent-bookings'),
-            __('Manage Availability', 'fluent-bookings'),
+            __('Manage Availability', 'fluent-booking'),
+            __('Manage Availability', 'fluent-booking'),
             'manage_options',
             'fluent-booking-availability',
             array($this, 'render_availability_page')
@@ -100,8 +100,8 @@ class Fluent_Booking_Admin_Menu {
         // All Bookings
         add_submenu_page(
             'fluent-booking',
-            __('All Bookings', 'fluent-bookings'),
-            __('All Bookings', 'fluent-bookings'),
+            __('All Bookings', 'fluent-booking'),
+            __('All Bookings', 'fluent-booking'),
             'manage_options',
             'fluent-booking-bookings',
             array($this, 'render_bookings_page')
@@ -110,8 +110,8 @@ class Fluent_Booking_Admin_Menu {
         // Calendar View
         add_submenu_page(
             'fluent-booking',
-            __('Calendar', 'fluent-bookings'),
-            __('Calendar', 'fluent-bookings'),
+            __('Calendar', 'fluent-booking'),
+            __('Calendar', 'fluent-booking'),
             'manage_options',
             'fluent-booking-calendar',
             array($this, 'render_calendar_page')
@@ -120,8 +120,8 @@ class Fluent_Booking_Admin_Menu {
         // Customers
         add_submenu_page(
             'fluent-booking',
-            __('Customers', 'fluent-bookings'),
-            __('Customers', 'fluent-bookings'),
+            __('Customers', 'fluent-booking'),
+            __('Customers', 'fluent-booking'),
             'manage_options',
             'fluent-booking-customers',
             array($this, 'render_customers_page')
@@ -130,8 +130,8 @@ class Fluent_Booking_Admin_Menu {
         // Settings
         add_submenu_page(
             'fluent-booking',
-            __('Settings', 'fluent-bookings'),
-            __('Settings', 'fluent-bookings'),
+            __('Settings', 'fluent-booking'),
+            __('Settings', 'fluent-booking'),
             'manage_options',
             'fluent-booking-settings',
             array($this, 'render_settings_page')

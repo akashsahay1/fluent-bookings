@@ -21,7 +21,7 @@ class Fluent_Booking_Elementor_Widget extends \Elementor\Widget_Base {
      * Get widget title
      */
     public function get_title() {
-        return __('Fluent Booking Form', 'fluent-bookings');
+        return __('Fluent Booking Form', 'fluent-booking');
     }
 
     /**
@@ -46,7 +46,7 @@ class Fluent_Booking_Elementor_Widget extends \Elementor\Widget_Base {
         $this->start_controls_section(
             'content_section',
             array(
-                'label' => __('Form Settings', 'fluent-bookings'),
+                'label' => __('Form Settings', 'fluent-booking'),
                 'tab' => \Elementor\Controls_Manager::TAB_CONTENT
             )
         );
@@ -66,7 +66,7 @@ class Fluent_Booking_Elementor_Widget extends \Elementor\Widget_Base {
         $this->add_control(
             'form_id',
             array(
-                'label' => __('Select Form', 'fluent-bookings'),
+                'label' => __('Select Form', 'fluent-booking'),
                 'type' => \Elementor\Controls_Manager::SELECT,
                 'options' => $form_options,
                 'default' => !empty($form_options) ? array_key_first($form_options) : ''
@@ -86,7 +86,7 @@ class Fluent_Booking_Elementor_Widget extends \Elementor\Widget_Base {
         if (!empty($form_id)) {
             echo do_shortcode('[fluent_booking id="' . absint($form_id) . '"]');
         } else {
-            echo '<p>' . __('Please select a form', 'fluent-bookings') . '</p>';
+            echo '<p>' . __('Please select a form', 'fluent-booking') . '</p>';
         }
     }
 }

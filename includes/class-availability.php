@@ -65,6 +65,72 @@ class Fluent_Booking_Availability {
     }
 
     /**
+     * Get all slots with their status (available, booked, blocked)
+     */
+    public static function get_slots_with_status($form_id, $date) {
+        global $wpdb;
+
+        // Get day of week (0 = Sunday, 6 = Saturday)
+        $day_of_week = date('w', strtotime($date));
+
+        // Get availability rules for this day
+        $availability_table = $wpdb->prefix . 'fluentbooking_availability';
+        $rules = $wpdb->get_results($wpdb->prepare(
+            "SELECT * FROM $availability_table
+            WHERE form_id = %d
+            AND day_of_week = %d
+            AND is_available = 1",
+            $form_id,
+            $day_of_week
+        ));
+
+        if (empty($rules)) {
+            return array();
+        }
+
+        $all_slots = array();
+
+        // Generate time slots for each rule
+        foreach ($rules as $rule) {
+            $slots = Fluent_Booking_Helper::generate_time_slots(
+                $rule->start_time,
+                $rule->end_time,
+                $rule->slot_duration
+            );
+
+            $all_slots = array_merge($all_slots, $slots);
+        }
+
+        // Remove duplicate slots
+        $all_slots = array_unique($all_slots);
+        sort($all_slots);
+
+        // Get booked and blocked slots
+        $booked_slots = self::get_booked_slots($form_id, $date);
+        $blocked_slots = self::get_blocked_slots($form_id, $date);
+
+        // Build slots with status
+        $slots_with_status = array();
+        foreach ($all_slots as $slot) {
+            $status = 'available';
+
+            if (in_array($slot, $booked_slots)) {
+                $status = 'booked';
+            } elseif (in_array($slot, $blocked_slots)) {
+                $status = 'blocked';
+            }
+
+            $slots_with_status[] = array(
+                'value' => $slot,
+                'label' => Fluent_Booking_Helper::format_time($slot),
+                'status' => $status
+            );
+        }
+
+        return $slots_with_status;
+    }
+
+    /**
      * Get booked slots for a specific date
      */
     private static function get_booked_slots($form_id, $date) {

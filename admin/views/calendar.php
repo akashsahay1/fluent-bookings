@@ -18,21 +18,21 @@ $forms = $wpdb->get_results(
 ?>
 
 <div class="wrap fluent-booking-calendar">
-    <h1><?php esc_html_e('Booking Calendar', 'fluent-bookings'); ?></h1>
+    <h1><?php esc_html_e('Booking Calendar', 'fluent-booking'); ?></h1>
 
     <div class="fb-calendar-header">
         <div class="fb-calendar-controls">
             <button type="button" id="fb-calendar-prev" class="button">
                 <span class="dashicons dashicons-arrow-left-alt2"></span>
-                <?php esc_html_e('Previous', 'fluent-bookings'); ?>
+                <?php esc_html_e('Previous', 'fluent-booking'); ?>
             </button>
 
             <button type="button" id="fb-calendar-today" class="button">
-                <?php esc_html_e('Today', 'fluent-bookings'); ?>
+                <?php esc_html_e('Today', 'fluent-booking'); ?>
             </button>
 
             <button type="button" id="fb-calendar-next" class="button">
-                <?php esc_html_e('Next', 'fluent-bookings'); ?>
+                <?php esc_html_e('Next', 'fluent-booking'); ?>
                 <span class="dashicons dashicons-arrow-right-alt2"></span>
             </button>
         </div>
@@ -43,16 +43,16 @@ $forms = $wpdb->get_results(
 
         <div class="fb-calendar-filters">
             <select id="fb-calendar-form-filter">
-                <option value=""><?php esc_html_e('All Forms', 'fluent-bookings'); ?></option>
+                <option value=""><?php esc_html_e('All Forms', 'fluent-booking'); ?></option>
                 <?php foreach ($forms as $form) : ?>
                     <option value="<?php echo esc_attr($form['id']); ?>"><?php echo esc_html($form['title']); ?></option>
                 <?php endforeach; ?>
             </select>
 
             <select id="fb-calendar-view">
-                <option value="month"><?php esc_html_e('Month View', 'fluent-bookings'); ?></option>
-                <option value="week"><?php esc_html_e('Week View', 'fluent-bookings'); ?></option>
-                <option value="day"><?php esc_html_e('Day View', 'fluent-bookings'); ?></option>
+                <option value="month"><?php esc_html_e('Month View', 'fluent-booking'); ?></option>
+                <option value="week"><?php esc_html_e('Week View', 'fluent-booking'); ?></option>
+                <option value="day"><?php esc_html_e('Day View', 'fluent-booking'); ?></option>
             </select>
         </div>
     </div>
@@ -60,19 +60,19 @@ $forms = $wpdb->get_results(
     <div class="fb-calendar-legend">
         <span class="fb-legend-item">
             <span class="fb-legend-color fb-status-pending"></span>
-            <?php esc_html_e('Pending', 'fluent-bookings'); ?>
+            <?php esc_html_e('Pending', 'fluent-booking'); ?>
         </span>
         <span class="fb-legend-item">
             <span class="fb-legend-color fb-status-confirmed"></span>
-            <?php esc_html_e('Confirmed', 'fluent-bookings'); ?>
+            <?php esc_html_e('Confirmed', 'fluent-booking'); ?>
         </span>
         <span class="fb-legend-item">
             <span class="fb-legend-color fb-status-completed"></span>
-            <?php esc_html_e('Completed', 'fluent-bookings'); ?>
+            <?php esc_html_e('Completed', 'fluent-booking'); ?>
         </span>
         <span class="fb-legend-item">
             <span class="fb-legend-color fb-status-cancelled"></span>
-            <?php esc_html_e('Cancelled', 'fluent-bookings'); ?>
+            <?php esc_html_e('Cancelled', 'fluent-booking'); ?>
         </span>
     </div>
 
@@ -84,15 +84,15 @@ $forms = $wpdb->get_results(
 <div id="fb-booking-details-modal" class="fb-modal" style="display: none;">
     <div class="fb-modal-content">
         <span class="fb-modal-close">&times;</span>
-        <h2><?php esc_html_e('Booking Details', 'fluent-bookings'); ?></h2>
+        <h2><?php esc_html_e('Booking Details', 'fluent-booking'); ?></h2>
         <div id="fb-booking-details-content"></div>
 
         <div class="fb-modal-actions">
             <button type="button" class="button button-primary" id="fb-update-booking-modal">
-                <?php esc_html_e('Update Status', 'fluent-bookings'); ?>
+                <?php esc_html_e('Update Status', 'fluent-booking'); ?>
             </button>
             <button type="button" class="button" id="fb-close-modal">
-                <?php esc_html_e('Close', 'fluent-bookings'); ?>
+                <?php esc_html_e('Close', 'fluent-booking'); ?>
             </button>
         </div>
     </div>

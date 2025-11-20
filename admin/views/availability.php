@@ -11,7 +11,7 @@ if (!defined('ABSPATH')) {
 $form_id = isset($_GET['form_id']) ? absint($_GET['form_id']) : 0;
 
 if (!$form_id) {
-    echo '<div class="notice notice-error"><p>' . esc_html__('Please select a form', 'fluent-bookings') . '</p></div>';
+    echo '<div class="notice notice-error"><p>' . esc_html__('Please select a form', 'fluent-booking') . '</p></div>';
     return;
 }
 
@@ -24,7 +24,7 @@ $form = $wpdb->get_row($wpdb->prepare(
 ), ARRAY_A);
 
 if (!$form) {
-    echo '<div class="notice notice-error"><p>' . esc_html__('Form not found', 'fluent-bookings') . '</p></div>';
+    echo '<div class="notice notice-error"><p>' . esc_html__('Form not found', 'fluent-booking') . '</p></div>';
     return;
 }
 
@@ -38,34 +38,35 @@ $days_of_week = Fluent_Booking_Helper::get_days_of_week();
 ?>
 
 <div class="wrap fluent-booking-availability">
-    <h1><?php echo esc_html(sprintf(__('Availability - %s', 'fluent-bookings'), $form['title'])); ?></h1>
+    <?php /* translators: %s: Form title */ ?>
+    <h1><?php echo esc_html(sprintf(__('Availability - %s', 'fluent-booking'), $form['title'])); ?></h1>
 
     <a href="<?php echo esc_url(admin_url('admin.php?page=fluent-booking-forms')); ?>" class="button">
-        <?php esc_html_e('← Back to Forms', 'fluent-bookings'); ?>
+        <?php esc_html_e('← Back to Forms', 'fluent-booking'); ?>
     </a>
 
     <!-- Tabs -->
     <div class="fb-availability-tabs">
-        <button class="fb-av-tab-button active" data-tab="weekly"><?php esc_html_e('Weekly Schedule', 'fluent-bookings'); ?></button>
-        <button class="fb-av-tab-button" data-tab="blocked"><?php esc_html_e('Blocked Dates', 'fluent-bookings'); ?></button>
+        <button class="fb-av-tab-button active" data-tab="weekly"><?php esc_html_e('Weekly Schedule', 'fluent-booking'); ?></button>
+        <button class="fb-av-tab-button" data-tab="blocked"><?php esc_html_e('Blocked Dates', 'fluent-booking'); ?></button>
     </div>
 
     <!-- Weekly Schedule Tab -->
     <div class="fb-av-tab-content active" data-tab-content="weekly">
         <div class="fb-av-section">
-            <h2><?php esc_html_e('Weekly Availability Schedule', 'fluent-bookings'); ?></h2>
-            <p class="description"><?php esc_html_e('Configure your available hours for each day of the week.', 'fluent-bookings'); ?></p>
+            <h2><?php esc_html_e('Weekly Availability Schedule', 'fluent-booking'); ?></h2>
+            <p class="description"><?php esc_html_e('Configure your available hours for each day of the week.', 'fluent-booking'); ?></p>
 
             <table class="wp-list-table widefat fixed striped fb-availability-table">
                 <thead>
                     <tr>
-                        <th style="width: 50px;"><?php esc_html_e('Enabled', 'fluent-bookings'); ?></th>
-                        <th><?php esc_html_e('Day', 'fluent-bookings'); ?></th>
-                        <th><?php esc_html_e('Start Time', 'fluent-bookings'); ?></th>
-                        <th><?php esc_html_e('End Time', 'fluent-bookings'); ?></th>
-                        <th><?php esc_html_e('Slot Duration (min)', 'fluent-bookings'); ?></th>
-                        <th><?php esc_html_e('Buffer Time (min)', 'fluent-bookings'); ?></th>
-                        <th style="width: 100px;"><?php esc_html_e('Actions', 'fluent-bookings'); ?></th>
+                        <th style="width: 50px;"><?php esc_html_e('Enabled', 'fluent-booking'); ?></th>
+                        <th><?php esc_html_e('Day', 'fluent-booking'); ?></th>
+                        <th><?php esc_html_e('Start Time', 'fluent-booking'); ?></th>
+                        <th><?php esc_html_e('End Time', 'fluent-booking'); ?></th>
+                        <th><?php esc_html_e('Slot Duration (min)', 'fluent-booking'); ?></th>
+                        <th><?php esc_html_e('Buffer Time (min)', 'fluent-booking'); ?></th>
+                        <th style="width: 100px;"><?php esc_html_e('Actions', 'fluent-booking'); ?></th>
                     </tr>
                 </thead>
                 <tbody id="fb-availability-tbody">
@@ -136,7 +137,7 @@ $days_of_week = Fluent_Booking_Helper::get_days_of_week();
                                     <td>
                                         <?php if (count($day_rules) > 1) : ?>
                                             <button type="button" class="button button-small fb-delete-time-slot" data-rule-id="<?php echo $rule['id']; ?>">
-                                                <?php esc_html_e('Delete', 'fluent-bookings'); ?>
+                                                <?php esc_html_e('Delete', 'fluent-booking'); ?>
                                             </button>
                                         <?php endif; ?>
                                     </td>
@@ -150,7 +151,7 @@ $days_of_week = Fluent_Booking_Helper::get_days_of_week();
                                 <td colspan="7">
                                     <button type="button" class="button button-small fb-add-time-slot" data-day="<?php echo $day; ?>">
                                         <span class="dashicons dashicons-plus-alt"></span>
-                                        <?php esc_html_e('Add Another Time Slot', 'fluent-bookings'); ?>
+                                        <?php esc_html_e('Add Another Time Slot', 'fluent-booking'); ?>
                                     </button>
                                 </td>
                             </tr>
@@ -163,7 +164,7 @@ $days_of_week = Fluent_Booking_Helper::get_days_of_week();
 
             <div class="fb-av-actions">
                 <button type="button" id="fb-save-availability" class="button button-primary button-large">
-                    <?php esc_html_e('Save Availability', 'fluent-bookings'); ?>
+                    <?php esc_html_e('Save Availability', 'fluent-booking'); ?>
                 </button>
             </div>
         </div>
@@ -172,39 +173,39 @@ $days_of_week = Fluent_Booking_Helper::get_days_of_week();
     <!-- Blocked Dates Tab -->
     <div class="fb-av-tab-content" data-tab-content="blocked">
         <div class="fb-av-section">
-            <h2><?php esc_html_e('Blocked Dates', 'fluent-bookings'); ?></h2>
-            <p class="description"><?php esc_html_e('Block specific dates or date ranges when you are not available.', 'fluent-bookings'); ?></p>
+            <h2><?php esc_html_e('Blocked Dates', 'fluent-booking'); ?></h2>
+            <p class="description"><?php esc_html_e('Block specific dates or date ranges when you are not available.', 'fluent-booking'); ?></p>
 
             <div class="fb-block-date-form">
-                <h3><?php esc_html_e('Add Blocked Date', 'fluent-bookings'); ?></h3>
+                <h3><?php esc_html_e('Add Blocked Date', 'fluent-booking'); ?></h3>
                 <div class="fb-form-row">
                     <div class="fb-form-group">
-                        <label><?php esc_html_e('Date', 'fluent-bookings'); ?></label>
+                        <label><?php esc_html_e('Date', 'fluent-booking'); ?></label>
                         <input type="date" id="fb-block-date" min="<?php echo date('Y-m-d'); ?>">
                     </div>
                     <div class="fb-form-group">
-                        <label><?php esc_html_e('Block Type', 'fluent-bookings'); ?></label>
+                        <label><?php esc_html_e('Block Type', 'fluent-booking'); ?></label>
                         <select id="fb-block-type">
-                            <option value="full_day"><?php esc_html_e('Full Day', 'fluent-bookings'); ?></option>
-                            <option value="time_range"><?php esc_html_e('Specific Time Range', 'fluent-bookings'); ?></option>
+                            <option value="full_day"><?php esc_html_e('Full Day', 'fluent-booking'); ?></option>
+                            <option value="time_range"><?php esc_html_e('Specific Time Range', 'fluent-booking'); ?></option>
                         </select>
                     </div>
                     <div class="fb-form-group fb-block-time-fields" style="display: none;">
-                        <label><?php esc_html_e('From Time', 'fluent-bookings'); ?></label>
+                        <label><?php esc_html_e('From Time', 'fluent-booking'); ?></label>
                         <input type="time" id="fb-block-from">
                     </div>
                     <div class="fb-form-group fb-block-time-fields" style="display: none;">
-                        <label><?php esc_html_e('To Time', 'fluent-bookings'); ?></label>
+                        <label><?php esc_html_e('To Time', 'fluent-booking'); ?></label>
                         <input type="time" id="fb-block-to">
                     </div>
                     <div class="fb-form-group">
-                        <label><?php esc_html_e('Reason (Optional)', 'fluent-bookings'); ?></label>
-                        <input type="text" id="fb-block-reason" placeholder="<?php esc_attr_e('e.g., Holiday, Vacation', 'fluent-bookings'); ?>">
+                        <label><?php esc_html_e('Reason (Optional)', 'fluent-booking'); ?></label>
+                        <input type="text" id="fb-block-reason" placeholder="<?php esc_attr_e('e.g., Holiday, Vacation', 'fluent-booking'); ?>">
                     </div>
                     <div class="fb-form-group">
                         <label>&nbsp;</label>
                         <button type="button" id="fb-add-blocked-date" class="button button-primary">
-                            <?php esc_html_e('Block Date', 'fluent-bookings'); ?>
+                            <?php esc_html_e('Block Date', 'fluent-booking'); ?>
                         </button>
                     </div>
                 </div>
@@ -213,10 +214,10 @@ $days_of_week = Fluent_Booking_Helper::get_days_of_week();
             <table class="wp-list-table widefat fixed striped">
                 <thead>
                     <tr>
-                        <th><?php esc_html_e('Date', 'fluent-bookings'); ?></th>
-                        <th><?php esc_html_e('Time Range', 'fluent-bookings'); ?></th>
-                        <th><?php esc_html_e('Reason', 'fluent-bookings'); ?></th>
-                        <th style="width: 100px;"><?php esc_html_e('Actions', 'fluent-bookings'); ?></th>
+                        <th><?php esc_html_e('Date', 'fluent-booking'); ?></th>
+                        <th><?php esc_html_e('Time Range', 'fluent-booking'); ?></th>
+                        <th><?php esc_html_e('Reason', 'fluent-booking'); ?></th>
+                        <th style="width: 100px;"><?php esc_html_e('Actions', 'fluent-booking'); ?></th>
                     </tr>
                 </thead>
                 <tbody id="fb-blocked-dates-tbody">
@@ -227,7 +228,7 @@ $days_of_week = Fluent_Booking_Helper::get_days_of_week();
                                 <td>
                                     <?php
                                     if (empty($blocked['blocked_from']) && empty($blocked['blocked_to'])) {
-                                        esc_html_e('Full Day', 'fluent-bookings');
+                                        esc_html_e('Full Day', 'fluent-booking');
                                     } else {
                                         echo esc_html(Fluent_Booking_Helper::format_time($blocked['blocked_from']) . ' - ' . Fluent_Booking_Helper::format_time($blocked['blocked_to']));
                                     }
@@ -236,14 +237,14 @@ $days_of_week = Fluent_Booking_Helper::get_days_of_week();
                                 <td><?php echo esc_html($blocked['reason'] ? $blocked['reason'] : '-'); ?></td>
                                 <td>
                                     <button type="button" class="button button-small fb-delete-blocked-date" data-block-id="<?php echo esc_attr($blocked['id']); ?>">
-                                        <?php esc_html_e('Delete', 'fluent-bookings'); ?>
+                                        <?php esc_html_e('Delete', 'fluent-booking'); ?>
                                     </button>
                                 </td>
                             </tr>
                         <?php endforeach; ?>
                     <?php else : ?>
                         <tr>
-                            <td colspan="4"><?php esc_html_e('No blocked dates yet.', 'fluent-bookings'); ?></td>
+                            <td colspan="4"><?php esc_html_e('No blocked dates yet.', 'fluent-booking'); ?></td>
                         </tr>
                     <?php endif; ?>
                 </tbody>

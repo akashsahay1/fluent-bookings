@@ -22,26 +22,26 @@ $customers = $wpdb->get_results(
 ?>
 
 <div class="wrap fluent-booking-customers">
-    <h1><?php esc_html_e('Customers', 'fluent-bookings'); ?></h1>
+    <h1><?php esc_html_e('Customers', 'fluent-booking'); ?></h1>
 
     <div class="fb-customers-filters">
-        <input type="text" id="fb-customer-search" placeholder="<?php esc_attr_e('Search customers...', 'fluent-bookings'); ?>">
-        <button type="button" id="fb-apply-customer-filter" class="button"><?php esc_html_e('Search', 'fluent-bookings'); ?></button>
-        <button type="button" id="fb-reset-customer-filter" class="button"><?php esc_html_e('Reset', 'fluent-bookings'); ?></button>
-        <button type="button" id="fb-export-customers" class="button"><?php esc_html_e('Export CSV', 'fluent-bookings'); ?></button>
+        <input type="text" id="fb-customer-search" placeholder="<?php esc_attr_e('Search customers...', 'fluent-booking'); ?>">
+        <button type="button" id="fb-apply-customer-filter" class="button"><?php esc_html_e('Search', 'fluent-booking'); ?></button>
+        <button type="button" id="fb-reset-customer-filter" class="button"><?php esc_html_e('Reset', 'fluent-booking'); ?></button>
+        <button type="button" id="fb-export-customers" class="button"><?php esc_html_e('Export CSV', 'fluent-booking'); ?></button>
     </div>
 
     <?php if (!empty($customers)) : ?>
         <table class="wp-list-table widefat fixed striped fb-customers-table">
             <thead>
                 <tr>
-                    <th style="width: 50px;"><?php esc_html_e('ID', 'fluent-bookings'); ?></th>
-                    <th><?php esc_html_e('Name', 'fluent-bookings'); ?></th>
-                    <th><?php esc_html_e('Email', 'fluent-bookings'); ?></th>
-                    <th><?php esc_html_e('Phone', 'fluent-bookings'); ?></th>
-                    <th style="width: 120px;"><?php esc_html_e('Total Bookings', 'fluent-bookings'); ?></th>
-                    <th style="width: 150px;"><?php esc_html_e('Registered', 'fluent-bookings'); ?></th>
-                    <th style="width: 150px;"><?php esc_html_e('Actions', 'fluent-bookings'); ?></th>
+                    <th style="width: 50px;"><?php esc_html_e('ID', 'fluent-booking'); ?></th>
+                    <th><?php esc_html_e('Name', 'fluent-booking'); ?></th>
+                    <th><?php esc_html_e('Email', 'fluent-booking'); ?></th>
+                    <th><?php esc_html_e('Phone', 'fluent-booking'); ?></th>
+                    <th style="width: 120px;"><?php esc_html_e('Total Bookings', 'fluent-booking'); ?></th>
+                    <th style="width: 150px;"><?php esc_html_e('Registered', 'fluent-booking'); ?></th>
+                    <th style="width: 150px;"><?php esc_html_e('Actions', 'fluent-booking'); ?></th>
                 </tr>
             </thead>
             <tbody id="fb-customers-tbody">
@@ -55,7 +55,7 @@ $customers = $wpdb->get_results(
                         <td><?php echo esc_html(Fluent_Booking_Helper::format_date($customer['created_at'], 'M j, Y')); ?></td>
                         <td>
                             <button class="button button-small fb-view-customer-bookings" data-customer-id="<?php echo esc_attr($customer['id']); ?>" data-customer-email="<?php echo esc_attr($customer['email']); ?>">
-                                <?php esc_html_e('View Bookings', 'fluent-bookings'); ?>
+                                <?php esc_html_e('View Bookings', 'fluent-booking'); ?>
                             </button>
                         </td>
                     </tr>
@@ -65,8 +65,8 @@ $customers = $wpdb->get_results(
     <?php else : ?>
         <div class="fb-empty-state">
             <span class="dashicons dashicons-groups"></span>
-            <h2><?php esc_html_e('No Customers Yet', 'fluent-bookings'); ?></h2>
-            <p><?php esc_html_e('Customers will appear here once they make bookings.', 'fluent-bookings'); ?></p>
+            <h2><?php esc_html_e('No Customers Yet', 'fluent-booking'); ?></h2>
+            <p><?php esc_html_e('Customers will appear here once they make bookings.', 'fluent-booking'); ?></p>
         </div>
     <?php endif; ?>
 </div>
@@ -75,17 +75,17 @@ $customers = $wpdb->get_results(
 <div id="fb-customer-bookings-modal" class="fb-modal" style="display: none;">
     <div class="fb-modal-content fb-modal-large">
         <span class="fb-modal-close">&times;</span>
-        <h2 id="fb-customer-modal-title"><?php esc_html_e('Customer Bookings', 'fluent-bookings'); ?></h2>
+        <h2 id="fb-customer-modal-title"><?php esc_html_e('Customer Bookings', 'fluent-booking'); ?></h2>
         <div id="fb-customer-bookings-content">
             <table class="wp-list-table widefat fixed striped">
                 <thead>
                     <tr>
-                        <th><?php esc_html_e('ID', 'fluent-bookings'); ?></th>
-                        <th><?php esc_html_e('Date', 'fluent-bookings'); ?></th>
-                        <th><?php esc_html_e('Time', 'fluent-bookings'); ?></th>
-                        <th><?php esc_html_e('Duration', 'fluent-bookings'); ?></th>
-                        <th><?php esc_html_e('Status', 'fluent-bookings'); ?></th>
-                        <th><?php esc_html_e('Created', 'fluent-bookings'); ?></th>
+                        <th><?php esc_html_e('ID', 'fluent-booking'); ?></th>
+                        <th><?php esc_html_e('Date', 'fluent-booking'); ?></th>
+                        <th><?php esc_html_e('Time', 'fluent-booking'); ?></th>
+                        <th><?php esc_html_e('Duration', 'fluent-booking'); ?></th>
+                        <th><?php esc_html_e('Status', 'fluent-booking'); ?></th>
+                        <th><?php esc_html_e('Created', 'fluent-booking'); ?></th>
                     </tr>
                 </thead>
                 <tbody id="fb-customer-bookings-tbody"></tbody>
@@ -93,7 +93,7 @@ $customers = $wpdb->get_results(
         </div>
         <div class="fb-modal-actions">
             <button type="button" class="button" id="fb-close-customer-modal">
-                <?php esc_html_e('Close', 'fluent-bookings'); ?>
+                <?php esc_html_e('Close', 'fluent-booking'); ?>
             </button>
         </div>
     </div>

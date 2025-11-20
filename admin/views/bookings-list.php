@@ -18,33 +18,33 @@ $forms = $wpdb->get_results(
 ?>
 
 <div class="wrap fluent-booking-bookings-list">
-    <h1><?php esc_html_e('All Bookings', 'fluent-bookings'); ?></h1>
+    <h1><?php esc_html_e('All Bookings', 'fluent-booking'); ?></h1>
 
     <!-- Filters -->
     <div class="fb-bookings-filters">
         <select id="fb-filter-form">
-            <option value=""><?php esc_html_e('All Forms', 'fluent-bookings'); ?></option>
+            <option value=""><?php esc_html_e('All Forms', 'fluent-booking'); ?></option>
             <?php foreach ($forms as $form) : ?>
                 <option value="<?php echo esc_attr($form['id']); ?>"><?php echo esc_html($form['title']); ?></option>
             <?php endforeach; ?>
         </select>
 
         <select id="fb-filter-status">
-            <option value=""><?php esc_html_e('All Statuses', 'fluent-bookings'); ?></option>
-            <option value="pending"><?php esc_html_e('Pending', 'fluent-bookings'); ?></option>
-            <option value="confirmed"><?php esc_html_e('Confirmed', 'fluent-bookings'); ?></option>
-            <option value="cancelled"><?php esc_html_e('Cancelled', 'fluent-bookings'); ?></option>
-            <option value="completed"><?php esc_html_e('Completed', 'fluent-bookings'); ?></option>
+            <option value=""><?php esc_html_e('All Statuses', 'fluent-booking'); ?></option>
+            <option value="pending"><?php esc_html_e('Pending', 'fluent-booking'); ?></option>
+            <option value="confirmed"><?php esc_html_e('Confirmed', 'fluent-booking'); ?></option>
+            <option value="cancelled"><?php esc_html_e('Cancelled', 'fluent-booking'); ?></option>
+            <option value="completed"><?php esc_html_e('Completed', 'fluent-booking'); ?></option>
         </select>
 
-        <input type="date" id="fb-filter-date-from" placeholder="<?php esc_attr_e('From Date', 'fluent-bookings'); ?>">
-        <input type="date" id="fb-filter-date-to" placeholder="<?php esc_attr_e('To Date', 'fluent-bookings'); ?>">
+        <input type="date" id="fb-filter-date-from" placeholder="<?php esc_attr_e('From Date', 'fluent-booking'); ?>">
+        <input type="date" id="fb-filter-date-to" placeholder="<?php esc_attr_e('To Date', 'fluent-booking'); ?>">
 
-        <input type="text" id="fb-filter-search" placeholder="<?php esc_attr_e('Search customer...', 'fluent-bookings'); ?>">
+        <input type="text" id="fb-filter-search" placeholder="<?php esc_attr_e('Search customer...', 'fluent-booking'); ?>">
 
-        <button type="button" id="fb-apply-filters" class="button"><?php esc_html_e('Apply Filters', 'fluent-bookings'); ?></button>
-        <button type="button" id="fb-reset-filters" class="button"><?php esc_html_e('Reset', 'fluent-bookings'); ?></button>
-        <button type="button" id="fb-export-bookings" class="button"><?php esc_html_e('Export CSV', 'fluent-bookings'); ?></button>
+        <button type="button" id="fb-apply-filters" class="button"><?php esc_html_e('Apply Filters', 'fluent-booking'); ?></button>
+        <button type="button" id="fb-reset-filters" class="button"><?php esc_html_e('Reset', 'fluent-booking'); ?></button>
+        <button type="button" id="fb-export-bookings" class="button"><?php esc_html_e('Export CSV', 'fluent-booking'); ?></button>
     </div>
 
     <!-- Bookings Table -->
@@ -52,18 +52,18 @@ $forms = $wpdb->get_results(
         <table class="wp-list-table widefat fixed striped" id="fb-bookings-table">
             <thead>
                 <tr>
-                    <th style="width: 50px;"><?php esc_html_e('ID', 'fluent-bookings'); ?></th>
-                    <th><?php esc_html_e('Customer', 'fluent-bookings'); ?></th>
-                    <th><?php esc_html_e('Contact', 'fluent-bookings'); ?></th>
-                    <th><?php esc_html_e('Date', 'fluent-bookings'); ?></th>
-                    <th><?php esc_html_e('Time', 'fluent-bookings'); ?></th>
-                    <th style="width: 120px;"><?php esc_html_e('Status', 'fluent-bookings'); ?></th>
-                    <th style="width: 200px;"><?php esc_html_e('Actions', 'fluent-bookings'); ?></th>
+                    <th style="width: 50px;"><?php esc_html_e('ID', 'fluent-booking'); ?></th>
+                    <th><?php esc_html_e('Customer', 'fluent-booking'); ?></th>
+                    <th><?php esc_html_e('Contact', 'fluent-booking'); ?></th>
+                    <th><?php esc_html_e('Date', 'fluent-booking'); ?></th>
+                    <th><?php esc_html_e('Time', 'fluent-booking'); ?></th>
+                    <th style="width: 120px;"><?php esc_html_e('Status', 'fluent-booking'); ?></th>
+                    <th style="width: 200px;"><?php esc_html_e('Actions', 'fluent-booking'); ?></th>
                 </tr>
             </thead>
             <tbody id="fb-bookings-tbody">
                 <tr>
-                    <td colspan="7" class="fb-loading"><?php esc_html_e('Loading bookings...', 'fluent-bookings'); ?></td>
+                    <td colspan="7" class="fb-loading"><?php esc_html_e('Loading bookings...', 'fluent-booking'); ?></td>
                 </tr>
             </tbody>
         </table>
@@ -76,7 +76,7 @@ $forms = $wpdb->get_results(
 <div id="fb-booking-modal" class="fb-modal" style="display: none;">
     <div class="fb-modal-content">
         <span class="fb-modal-close">&times;</span>
-        <h2><?php esc_html_e('Booking Details', 'fluent-bookings'); ?></h2>
+        <h2><?php esc_html_e('Booking Details', 'fluent-booking'); ?></h2>
         <div id="fb-booking-details"></div>
     </div>
 </div>
@@ -118,7 +118,7 @@ jQuery(document).ready(function($) {
     // Render bookings
     function renderBookings(bookings) {
         if (!bookings || bookings.length === 0) {
-            jQuery('#fb-bookings-tbody').html('<tr><td colspan="7"><?php esc_html_e('No bookings found', 'fluent-bookings'); ?></td></tr>');
+            jQuery('#fb-bookings-tbody').html('<tr><td colspan="7"><?php esc_html_e('No bookings found', 'fluent-booking'); ?></td></tr>');
             return;
         }
 
@@ -136,14 +136,14 @@ jQuery(document).ready(function($) {
             html += '<td>' + formatDate(booking.booking_date) + '</td>';
             html += '<td>' + formatTime(booking.booking_time) + '</td>';
             html += '<td><select class="fb-status-select" data-booking-id="' + booking.id + '">';
-            html += '<option value="pending"' + (booking.status === 'pending' ? ' selected' : '') + '><?php esc_html_e('Pending', 'fluent-bookings'); ?></option>';
-            html += '<option value="confirmed"' + (booking.status === 'confirmed' ? ' selected' : '') + '><?php esc_html_e('Confirmed', 'fluent-bookings'); ?></option>';
-            html += '<option value="cancelled"' + (booking.status === 'cancelled' ? ' selected' : '') + '><?php esc_html_e('Cancelled', 'fluent-bookings'); ?></option>';
-            html += '<option value="completed"' + (booking.status === 'completed' ? ' selected' : '') + '><?php esc_html_e('Completed', 'fluent-bookings'); ?></option>';
+            html += '<option value="pending"' + (booking.status === 'pending' ? ' selected' : '') + '><?php esc_html_e('Pending', 'fluent-booking'); ?></option>';
+            html += '<option value="confirmed"' + (booking.status === 'confirmed' ? ' selected' : '') + '><?php esc_html_e('Confirmed', 'fluent-booking'); ?></option>';
+            html += '<option value="cancelled"' + (booking.status === 'cancelled' ? ' selected' : '') + '><?php esc_html_e('Cancelled', 'fluent-booking'); ?></option>';
+            html += '<option value="completed"' + (booking.status === 'completed' ? ' selected' : '') + '><?php esc_html_e('Completed', 'fluent-booking'); ?></option>';
             html += '</select></td>';
             html += '<td>';
-            html += '<button class="button button-small fb-view-booking" data-booking-id="' + booking.id + '"><?php esc_html_e('View', 'fluent-bookings'); ?></button> ';
-            html += '<button class="button button-small fb-delete-booking" data-booking-id="' + booking.id + '"><?php esc_html_e('Delete', 'fluent-bookings'); ?></button>';
+            html += '<button class="button button-small fb-view-booking" data-booking-id="' + booking.id + '"><?php esc_html_e('View', 'fluent-booking'); ?></button> ';
+            html += '<button class="button button-small fb-delete-booking" data-booking-id="' + booking.id + '"><?php esc_html_e('Delete', 'fluent-booking'); ?></button>';
             html += '</td>';
             html += '</tr>';
         });

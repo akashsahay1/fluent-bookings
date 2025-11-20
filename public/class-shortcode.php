@@ -43,7 +43,7 @@ class Fluent_Booking_Shortcode {
         $form_id = absint($atts['id']);
 
         if (!$form_id) {
-            return '<p>' . __('Please provide a valid form ID', 'fluent-bookings') . '</p>';
+            return '<p>' . __('Please provide a valid form ID', 'fluent-booking') . '</p>';
         }
 
         // Get form data
@@ -52,7 +52,7 @@ class Fluent_Booking_Shortcode {
         $form = $wpdb->get_row($wpdb->prepare("SELECT * FROM $table WHERE id = %d AND status = 'active'", $form_id), ARRAY_A);
 
         if (!$form) {
-            return '<p>' . __('Form not found or inactive', 'fluent-bookings') . '</p>';
+            return '<p>' . __('Form not found or inactive', 'fluent-booking') . '</p>';
         }
 
         // Decode JSON fields
@@ -94,11 +94,11 @@ class Fluent_Booking_Shortcode {
             <div class="fb-date-availability-info">
                 <span>
                     <span class="fb-availability-dot available"></span>
-                    <?php esc_html_e('Available dates', 'fluent-bookings'); ?>
+                    <?php esc_html_e('Available dates', 'fluent-booking'); ?>
                 </span>
                 <span>
                     <span class="fb-availability-dot unavailable"></span>
-                    <?php esc_html_e('Unavailable dates', 'fluent-bookings'); ?>
+                    <?php esc_html_e('Unavailable dates', 'fluent-booking'); ?>
                 </span>
             </div>
 
@@ -117,7 +117,7 @@ class Fluent_Booking_Shortcode {
 
                 <div class="fb-form-footer">
                     <button type="submit" class="fb-submit-button">
-                        <?php esc_html_e('Book Appointment', 'fluent-bookings'); ?>
+                        <?php esc_html_e('Book Appointment', 'fluent-booking'); ?>
                     </button>
                 </div>
 
@@ -223,29 +223,44 @@ class Fluent_Booking_Shortcode {
 
                     case 'date':
                         ?>
+                        <!-- Hidden input to store selected date -->
                         <input
-                            type="date"
+                            type="hidden"
                             id="<?php echo $field_id; ?>"
                             name="<?php echo $field_id; ?>"
-                            placeholder="<?php echo $field_placeholder; ?>"
                             <?php echo $field_required; ?>
                             class="fb-date-field"
-                            min="<?php echo date('Y-m-d'); ?>"
                         >
+                        <!-- Calendar Display -->
+                        <div class="fb-calendar-picker" data-field-id="<?php echo $field_id; ?>">
+                            <div class="fb-calendar-header">
+                                <button type="button" class="fb-cal-prev">&laquo;</button>
+                                <span class="fb-cal-month-year"></span>
+                                <button type="button" class="fb-cal-next">&raquo;</button>
+                            </div>
+                            <div class="fb-calendar-body">
+                                <div class="fb-cal-days-header"></div>
+                                <div class="fb-cal-days-grid"></div>
+                            </div>
+                        </div>
                         <?php
                         break;
 
                     case 'time':
                         ?>
-                        <select
+                        <!-- Hidden input to store selected time -->
+                        <input
+                            type="hidden"
                             id="<?php echo $field_id; ?>"
                             name="<?php echo $field_id; ?>"
                             <?php echo $field_required; ?>
                             class="fb-time-field"
-                            disabled
                         >
-                            <option value=""><?php esc_html_e('Select date first', 'fluent-bookings'); ?></option>
-                        </select>
+                        <!-- Time Slots Display -->
+                        <div class="fb-time-slots-picker" data-field-id="<?php echo $field_id; ?>">
+                            <p class="fb-time-instruction"><?php esc_html_e('Please select a date first', 'fluent-booking'); ?></p>
+                            <div class="fb-time-slots-grid"></div>
+                        </div>
                         <?php
                         break;
 

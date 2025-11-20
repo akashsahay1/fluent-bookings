@@ -21,13 +21,14 @@ class Fluent_Booking {
         $required = array('form_id', 'customer_name', 'customer_email', 'booking_date', 'booking_time');
         foreach ($required as $field) {
             if (empty($data[$field])) {
-                return new WP_Error('missing_field', sprintf(__('Field %s is required', 'fluent-bookings'), $field));
+                /* translators: %s: Field name */
+                return new WP_Error('missing_field', sprintf(__('Field %s is required', 'fluent-booking'), $field));
             }
         }
 
         // Check if slot is available
         if (!self::is_slot_available($data['form_id'], $data['booking_date'], $data['booking_time'])) {
-            return new WP_Error('slot_unavailable', __('This time slot is not available', 'fluent-bookings'));
+            return new WP_Error('slot_unavailable', __('This time slot is not available', 'fluent-booking'));
         }
 
         // Calculate end time
@@ -53,7 +54,7 @@ class Fluent_Booking {
         $result = $wpdb->insert($table, $booking_data);
 
         if ($result === false) {
-            return new WP_Error('insert_failed', __('Failed to create booking', 'fluent-bookings'));
+            return new WP_Error('insert_failed', __('Failed to create booking', 'fluent-booking'));
         }
 
         $booking_id = $wpdb->insert_id;

@@ -1,12 +1,12 @@
 <?php
 /**
- * Plugin Name: Fluent Bookings
- * Plugin URI: https://fluentbookings.com
+ * Plugin Name: Fluent Appointments
+ * Plugin URI: https://github.com/akashsahay1/fluent-bookings
  * Description: A powerful appointment booking plugin with Google Calendar integration, drag-and-drop form builder, and smart availability management.
  * Version: 1.0.0
  * Author: Akash
- * Author URI: https://fluentbookings.com
- * Text Domain: fluent-bookings
+ * Author URI: https://github.com/akashsahay1
+ * Text Domain: fluent-booking
  * Domain Path: /languages
  * Requires at least: 5.0
  * Requires PHP: 7.4
@@ -145,7 +145,7 @@ final class Fluent_Booking {
      * Load text domain
      */
     public function load_textdomain() {
-        load_plugin_textdomain('fluent-bookings', false, dirname(FLUENT_BOOKING_PLUGIN_BASENAME) . '/languages');
+        load_plugin_textdomain('fluent-booking', false, dirname(FLUENT_BOOKING_PLUGIN_BASENAME) . '/languages');
     }
 
     /**
@@ -175,9 +175,9 @@ final class Fluent_Booking {
             'ajaxurl' => admin_url('admin-ajax.php'),
             'nonce' => wp_create_nonce('fluent_booking_admin_nonce'),
             'strings' => array(
-                'confirm_delete' => __('Are you sure you want to delete this item?', 'fluent-bookings'),
-                'save_success' => __('Saved successfully!', 'fluent-bookings'),
-                'save_error' => __('Error saving. Please try again.', 'fluent-bookings'),
+                'confirm_delete' => __('Are you sure you want to delete this item?', 'fluent-booking'),
+                'save_success' => __('Saved successfully!', 'fluent-booking'),
+                'save_error' => __('Error saving. Please try again.', 'fluent-booking'),
             )
         ));
     }
@@ -197,10 +197,10 @@ final class Fluent_Booking {
             'ajaxurl' => admin_url('admin-ajax.php'),
             'nonce' => wp_create_nonce('fluent_booking_public_nonce'),
             'strings' => array(
-                'loading' => __('Loading...', 'fluent-bookings'),
-                'select_date' => __('Please select a date', 'fluent-bookings'),
-                'select_time' => __('Please select a time', 'fluent-bookings'),
-                'fill_required' => __('Please fill all required fields', 'fluent-bookings'),
+                'loading' => __('Loading...', 'fluent-booking'),
+                'select_date' => __('Please select a date', 'fluent-booking'),
+                'select_time' => __('Please select a time', 'fluent-booking'),
+                'fill_required' => __('Please fill all required fields', 'fluent-booking'),
             )
         ));
     }

@@ -46,13 +46,13 @@ class Fluent_Booking_Form_Handler {
     public function submit_booking() {
         // Verify nonce
         if (!isset($_POST['fb_nonce']) || !wp_verify_nonce($_POST['fb_nonce'], 'fluent_booking_public_nonce')) {
-            Fluent_Booking_Helper::send_error(__('Security check failed', 'fluent-bookings'));
+            Fluent_Booking_Helper::send_error(__('Security check failed', 'fluent-booking'));
         }
 
         $form_id = isset($_POST['form_id']) ? absint($_POST['form_id']) : 0;
 
         if (!$form_id) {
-            Fluent_Booking_Helper::send_error(__('Invalid form', 'fluent-bookings'));
+            Fluent_Booking_Helper::send_error(__('Invalid form', 'fluent-booking'));
         }
 
         // Get form
@@ -61,7 +61,7 @@ class Fluent_Booking_Form_Handler {
         $form = $wpdb->get_row($wpdb->prepare("SELECT * FROM $table WHERE id = %d AND status = 'active'", $form_id), ARRAY_A);
 
         if (!$form) {
-            Fluent_Booking_Helper::send_error(__('Form not found', 'fluent-bookings'));
+            Fluent_Booking_Helper::send_error(__('Form not found', 'fluent-booking'));
         }
 
         $form_fields = json_decode($form['form_fields'], true);
@@ -81,7 +81,8 @@ class Fluent_Booking_Form_Handler {
             // Validate required fields
             if (isset($field['required']) && $field['required'] && empty($field_value)) {
                 Fluent_Booking_Helper::send_error(
-                    sprintf(__('Field "%s" is required', 'fluent-bookings'), $field['label'])
+                    /* translators: %s: Field label */
+                    sprintf(__('Field "%s" is required', 'fluent-booking'), $field['label'])
                 );
             }
 
@@ -90,7 +91,7 @@ class Fluent_Booking_Form_Handler {
                 case 'email':
                     $field_value = sanitize_email($field_value);
                     if (!is_email($field_value)) {
-                        Fluent_Booking_Helper::send_error(__('Invalid email address', 'fluent-bookings'));
+                        Fluent_Booking_Helper::send_error(__('Invalid email address', 'fluent-booking'));
                     }
                     break;
 
@@ -143,7 +144,7 @@ class Fluent_Booking_Form_Handler {
         // Get success message
         $success_message = isset($form_settings['confirmation_message'])
             ? $form_settings['confirmation_message']
-            : __('Thank you! Your appointment has been booked successfully.', 'fluent-bookings');
+            : __('Thank you! Your appointment has been booked successfully.', 'fluent-booking');
 
         Fluent_Booking_Helper::send_success($success_message, array(
             'booking_id' => $booking_id,
@@ -159,32 +160,23 @@ class Fluent_Booking_Form_Handler {
         $date = isset($_POST['date']) ? sanitize_text_field($_POST['date']) : '';
 
         if (!$form_id || !$date) {
-            Fluent_Booking_Helper::send_error(__('Invalid parameters', 'fluent-bookings'));
+            Fluent_Booking_Helper::send_error(__('Invalid parameters', 'fluent-booking'));
         }
 
         // Validate date format
         if (!preg_match('/^\d{4}-\d{2}-\d{2}$/', $date)) {
-            Fluent_Booking_Helper::send_error(__('Invalid date format', 'fluent-bookings'));
+            Fluent_Booking_Helper::send_error(__('Invalid date format', 'fluent-booking'));
         }
 
         // Check if date is in the past
         if (strtotime($date) < strtotime(date('Y-m-d'))) {
-            Fluent_Booking_Helper::send_error(__('Cannot book appointments in the past', 'fluent-bookings'));
+            Fluent_Booking_Helper::send_error(__('Cannot book appointments in the past', 'fluent-booking'));
         }
 
-        // Get available slots
-        $slots = Fluent_Booking_Availability::get_available_slots($form_id, $date);
+        // Get slots with status (available, booked, blocked)
+        $slots = Fluent_Booking_Availability::get_slots_with_status($form_id, $date);
 
-        // Format slots for display
-        $formatted_slots = array();
-        foreach ($slots as $slot) {
-            $formatted_slots[] = array(
-                'value' => $slot,
-                'label' => Fluent_Booking_Helper::format_time($slot)
-            );
-        }
-
-        Fluent_Booking_Helper::send_success('', $formatted_slots);
+        Fluent_Booking_Helper::send_success('', $slots);
     }
 
     /**
@@ -196,7 +188,7 @@ class Fluent_Booking_Form_Handler {
         $end_date = isset($_POST['end_date']) ? sanitize_text_field($_POST['end_date']) : date('Y-m-d', strtotime('+30 days'));
 
         if (!$form_id) {
-            Fluent_Booking_Helper::send_error(__('Invalid parameters', 'fluent-bookings'));
+            Fluent_Booking_Helper::send_error(__('Invalid parameters', 'fluent-booking'));
         }
 
         $available_dates = array();

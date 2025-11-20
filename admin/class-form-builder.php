@@ -60,7 +60,7 @@ class Fluent_Booking_Form_Builder {
 
         // Validate
         if (empty($title)) {
-            Fluent_Booking_Helper::send_error(__('Form title is required', 'fluent-bookings'));
+            Fluent_Booking_Helper::send_error(__('Form title is required', 'fluent-booking'));
         }
 
         // Sanitize
@@ -87,7 +87,7 @@ class Fluent_Booking_Form_Builder {
             );
 
             Fluent_Booking_Helper::send_success(
-                __('Form updated successfully', 'fluent-bookings'),
+                __('Form updated successfully', 'fluent-booking'),
                 array('form_id' => $form_id)
             );
         } else {
@@ -107,7 +107,7 @@ class Fluent_Booking_Form_Builder {
             $this->create_default_availability($form_id);
 
             Fluent_Booking_Helper::send_success(
-                __('Form created successfully', 'fluent-bookings'),
+                __('Form created successfully', 'fluent-booking'),
                 array('form_id' => $form_id)
             );
         }
@@ -150,7 +150,7 @@ class Fluent_Booking_Form_Builder {
         $form_id = isset($_POST['form_id']) ? absint($_POST['form_id']) : 0;
 
         if (!$form_id) {
-            Fluent_Booking_Helper::send_error(__('Invalid form ID', 'fluent-bookings'));
+            Fluent_Booking_Helper::send_error(__('Invalid form ID', 'fluent-booking'));
         }
 
         // Delete form
@@ -174,7 +174,7 @@ class Fluent_Booking_Form_Builder {
             array('%d')
         );
 
-        Fluent_Booking_Helper::send_success(__('Form deleted successfully', 'fluent-bookings'));
+        Fluent_Booking_Helper::send_success(__('Form deleted successfully', 'fluent-booking'));
     }
 
     /**
@@ -190,14 +190,14 @@ class Fluent_Booking_Form_Builder {
         $form_id = isset($_POST['form_id']) ? absint($_POST['form_id']) : 0;
 
         if (!$form_id) {
-            Fluent_Booking_Helper::send_error(__('Invalid form ID', 'fluent-bookings'));
+            Fluent_Booking_Helper::send_error(__('Invalid form ID', 'fluent-booking'));
         }
 
         // Get original form
         $form = $wpdb->get_row($wpdb->prepare("SELECT * FROM $table WHERE id = %d", $form_id), ARRAY_A);
 
         if (!$form) {
-            Fluent_Booking_Helper::send_error(__('Form not found', 'fluent-bookings'));
+            Fluent_Booking_Helper::send_error(__('Form not found', 'fluent-booking'));
         }
 
         // Remove ID and update title
@@ -241,7 +241,7 @@ class Fluent_Booking_Form_Builder {
         }
 
         Fluent_Booking_Helper::send_success(
-            __('Form duplicated successfully', 'fluent-bookings'),
+            __('Form duplicated successfully', 'fluent-booking'),
             array('form_id' => $new_form_id)
         );
     }
@@ -259,13 +259,13 @@ class Fluent_Booking_Form_Builder {
         $form_id = isset($_POST['form_id']) ? absint($_POST['form_id']) : 0;
 
         if (!$form_id) {
-            Fluent_Booking_Helper::send_error(__('Invalid form ID', 'fluent-bookings'));
+            Fluent_Booking_Helper::send_error(__('Invalid form ID', 'fluent-booking'));
         }
 
         $form = $wpdb->get_row($wpdb->prepare("SELECT * FROM $table WHERE id = %d", $form_id), ARRAY_A);
 
         if (!$form) {
-            Fluent_Booking_Helper::send_error(__('Form not found', 'fluent-bookings'));
+            Fluent_Booking_Helper::send_error(__('Form not found', 'fluent-booking'));
         }
 
         // Decode JSON fields
@@ -291,7 +291,7 @@ class Fluent_Booking_Form_Builder {
         $status = isset($_POST['status']) ? sanitize_text_field($_POST['status']) : '';
 
         if (!$form_id || !in_array($status, array('active', 'inactive'))) {
-            Fluent_Booking_Helper::send_error(__('Invalid parameters', 'fluent-bookings'));
+            Fluent_Booking_Helper::send_error(__('Invalid parameters', 'fluent-booking'));
         }
 
         $wpdb->update(
@@ -302,7 +302,7 @@ class Fluent_Booking_Form_Builder {
             array('%d')
         );
 
-        Fluent_Booking_Helper::send_success(__('Status updated successfully', 'fluent-bookings'));
+        Fluent_Booking_Helper::send_success(__('Status updated successfully', 'fluent-booking'));
     }
 
     /**
@@ -316,15 +316,15 @@ class Fluent_Booking_Form_Builder {
         $rules = isset($_POST['rules']) ? $_POST['rules'] : array();
 
         if (!$form_id) {
-            Fluent_Booking_Helper::send_error(__('Invalid form ID', 'fluent-bookings'));
+            Fluent_Booking_Helper::send_error(__('Invalid form ID', 'fluent-booking'));
         }
 
         $result = Fluent_Booking_Availability::save_rules($form_id, $rules);
 
         if ($result) {
-            Fluent_Booking_Helper::send_success(__('Availability saved successfully', 'fluent-bookings'));
+            Fluent_Booking_Helper::send_success(__('Availability saved successfully', 'fluent-booking'));
         } else {
-            Fluent_Booking_Helper::send_error(__('Failed to save availability', 'fluent-bookings'));
+            Fluent_Booking_Helper::send_error(__('Failed to save availability', 'fluent-booking'));
         }
     }
 
@@ -342,15 +342,15 @@ class Fluent_Booking_Form_Builder {
         $reason = isset($_POST['reason']) ? sanitize_text_field($_POST['reason']) : '';
 
         if (!$form_id || !$date) {
-            Fluent_Booking_Helper::send_error(__('Invalid parameters', 'fluent-bookings'));
+            Fluent_Booking_Helper::send_error(__('Invalid parameters', 'fluent-booking'));
         }
 
         $result = Fluent_Booking_Availability::block_date($form_id, $date, $block_from, $block_to, $reason);
 
         if ($result) {
-            Fluent_Booking_Helper::send_success(__('Date blocked successfully', 'fluent-bookings'));
+            Fluent_Booking_Helper::send_success(__('Date blocked successfully', 'fluent-booking'));
         } else {
-            Fluent_Booking_Helper::send_error(__('Failed to block date', 'fluent-bookings'));
+            Fluent_Booking_Helper::send_error(__('Failed to block date', 'fluent-booking'));
         }
     }
 
@@ -364,15 +364,15 @@ class Fluent_Booking_Form_Builder {
         $block_id = isset($_POST['block_id']) ? absint($_POST['block_id']) : 0;
 
         if (!$block_id) {
-            Fluent_Booking_Helper::send_error(__('Invalid block ID', 'fluent-bookings'));
+            Fluent_Booking_Helper::send_error(__('Invalid block ID', 'fluent-booking'));
         }
 
         $result = Fluent_Booking_Availability::unblock_date($block_id);
 
         if ($result) {
-            Fluent_Booking_Helper::send_success(__('Date unblocked successfully', 'fluent-bookings'));
+            Fluent_Booking_Helper::send_success(__('Date unblocked successfully', 'fluent-booking'));
         } else {
-            Fluent_Booking_Helper::send_error(__('Failed to unblock date', 'fluent-bookings'));
+            Fluent_Booking_Helper::send_error(__('Failed to unblock date', 'fluent-booking'));
         }
     }
 
@@ -382,43 +382,43 @@ class Fluent_Booking_Form_Builder {
     public static function get_field_types() {
         return array(
             'text' => array(
-                'label' => __('Text Input', 'fluent-bookings'),
+                'label' => __('Text Input', 'fluent-booking'),
                 'icon' => 'dashicons-edit'
             ),
             'email' => array(
-                'label' => __('Email', 'fluent-bookings'),
+                'label' => __('Email', 'fluent-booking'),
                 'icon' => 'dashicons-email'
             ),
             'tel' => array(
-                'label' => __('Phone', 'fluent-bookings'),
+                'label' => __('Phone', 'fluent-booking'),
                 'icon' => 'dashicons-phone'
             ),
             'textarea' => array(
-                'label' => __('Textarea', 'fluent-bookings'),
+                'label' => __('Textarea', 'fluent-booking'),
                 'icon' => 'dashicons-text'
             ),
             'select' => array(
-                'label' => __('Dropdown', 'fluent-bookings'),
+                'label' => __('Dropdown', 'fluent-booking'),
                 'icon' => 'dashicons-arrow-down-alt2'
             ),
             'radio' => array(
-                'label' => __('Radio Buttons', 'fluent-bookings'),
+                'label' => __('Radio Buttons', 'fluent-booking'),
                 'icon' => 'dashicons-marker'
             ),
             'checkbox' => array(
-                'label' => __('Checkboxes', 'fluent-bookings'),
+                'label' => __('Checkboxes', 'fluent-booking'),
                 'icon' => 'dashicons-yes'
             ),
             'date' => array(
-                'label' => __('Date Picker', 'fluent-bookings'),
+                'label' => __('Date Picker', 'fluent-booking'),
                 'icon' => 'dashicons-calendar-alt'
             ),
             'time' => array(
-                'label' => __('Time Picker', 'fluent-bookings'),
+                'label' => __('Time Picker', 'fluent-booking'),
                 'icon' => 'dashicons-clock'
             ),
             'number' => array(
-                'label' => __('Number', 'fluent-bookings'),
+                'label' => __('Number', 'fluent-booking'),
                 'icon' => 'dashicons-calculator'
             )
         );
