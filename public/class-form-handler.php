@@ -35,6 +35,9 @@ class Fluent_Booking_Form_Handler {
 
         add_action('wp_ajax_fb_get_available_slots', array($this, 'get_available_slots'));
         add_action('wp_ajax_nopriv_fb_get_available_slots', array($this, 'get_available_slots'));
+
+        add_action('wp_ajax_fb_check_date_availability', array($this, 'check_date_availability'));
+        add_action('wp_ajax_nopriv_fb_check_date_availability', array($this, 'check_date_availability'));
     }
 
     /**
@@ -182,5 +185,42 @@ class Fluent_Booking_Form_Handler {
         }
 
         Fluent_Booking_Helper::send_success('', $formatted_slots);
+    }
+
+    /**
+     * Check date availability (returns available dates for a date range)
+     */
+    public function check_date_availability() {
+        $form_id = isset($_POST['form_id']) ? absint($_POST['form_id']) : 0;
+        $start_date = isset($_POST['start_date']) ? sanitize_text_field($_POST['start_date']) : date('Y-m-d');
+        $end_date = isset($_POST['end_date']) ? sanitize_text_field($_POST['end_date']) : date('Y-m-d', strtotime('+30 days'));
+
+        if (!$form_id) {
+            Fluent_Booking_Helper::send_error(__('Invalid parameters', 'fluent-bookings'));
+        }
+
+        $available_dates = array();
+        $unavailable_dates = array();
+
+        // Check each date in the range
+        $current = strtotime($start_date);
+        $end = strtotime($end_date);
+
+        while ($current <= $end) {
+            $date = date('Y-m-d', $current);
+
+            if (Fluent_Booking_Availability::is_date_available($form_id, $date)) {
+                $available_dates[] = $date;
+            } else {
+                $unavailable_dates[] = $date;
+            }
+
+            $current = strtotime('+1 day', $current);
+        }
+
+        Fluent_Booking_Helper::send_success('', array(
+            'available' => $available_dates,
+            'unavailable' => $unavailable_dates
+        ));
     }
 }

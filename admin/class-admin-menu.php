@@ -87,6 +87,16 @@ class Fluent_Booking_Admin_Menu {
             array($this, 'render_edit_form_page')
         );
 
+        // Availability (hidden)
+        add_submenu_page(
+            null,
+            __('Manage Availability', 'fluent-bookings'),
+            __('Manage Availability', 'fluent-bookings'),
+            'manage_options',
+            'fluent-booking-availability',
+            array($this, 'render_availability_page')
+        );
+
         // All Bookings
         add_submenu_page(
             'fluent-booking',
@@ -182,5 +192,12 @@ class Fluent_Booking_Admin_Menu {
      */
     public function render_settings_page() {
         include FLUENT_BOOKING_PLUGIN_DIR . 'admin/views/settings.php';
+    }
+
+    /**
+     * Render availability page
+     */
+    public function render_availability_page() {
+        include FLUENT_BOOKING_PLUGIN_DIR . 'admin/views/availability.php';
     }
 }

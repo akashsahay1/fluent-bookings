@@ -35,6 +35,9 @@ class Fluent_Booking_Form_Builder {
         add_action('wp_ajax_fb_duplicate_form', array($this, 'duplicate_form'));
         add_action('wp_ajax_fb_get_form', array($this, 'get_form'));
         add_action('wp_ajax_fb_update_form_status', array($this, 'update_form_status'));
+        add_action('wp_ajax_fb_save_availability', array($this, 'save_availability'));
+        add_action('wp_ajax_fb_block_date', array($this, 'block_date'));
+        add_action('wp_ajax_fb_unblock_date', array($this, 'unblock_date'));
     }
 
     /**
@@ -300,6 +303,77 @@ class Fluent_Booking_Form_Builder {
         );
 
         Fluent_Booking_Helper::send_success(__('Status updated successfully', 'fluent-bookings'));
+    }
+
+    /**
+     * Save availability
+     */
+    public function save_availability() {
+        Fluent_Booking_Helper::verify_nonce($_POST['nonce']);
+        Fluent_Booking_Helper::check_admin_permission();
+
+        $form_id = isset($_POST['form_id']) ? absint($_POST['form_id']) : 0;
+        $rules = isset($_POST['rules']) ? $_POST['rules'] : array();
+
+        if (!$form_id) {
+            Fluent_Booking_Helper::send_error(__('Invalid form ID', 'fluent-bookings'));
+        }
+
+        $result = Fluent_Booking_Availability::save_rules($form_id, $rules);
+
+        if ($result) {
+            Fluent_Booking_Helper::send_success(__('Availability saved successfully', 'fluent-bookings'));
+        } else {
+            Fluent_Booking_Helper::send_error(__('Failed to save availability', 'fluent-bookings'));
+        }
+    }
+
+    /**
+     * Block date
+     */
+    public function block_date() {
+        Fluent_Booking_Helper::verify_nonce($_POST['nonce']);
+        Fluent_Booking_Helper::check_admin_permission();
+
+        $form_id = isset($_POST['form_id']) ? absint($_POST['form_id']) : 0;
+        $date = isset($_POST['date']) ? sanitize_text_field($_POST['date']) : '';
+        $block_from = isset($_POST['block_from']) ? sanitize_text_field($_POST['block_from']) : null;
+        $block_to = isset($_POST['block_to']) ? sanitize_text_field($_POST['block_to']) : null;
+        $reason = isset($_POST['reason']) ? sanitize_text_field($_POST['reason']) : '';
+
+        if (!$form_id || !$date) {
+            Fluent_Booking_Helper::send_error(__('Invalid parameters', 'fluent-bookings'));
+        }
+
+        $result = Fluent_Booking_Availability::block_date($form_id, $date, $block_from, $block_to, $reason);
+
+        if ($result) {
+            Fluent_Booking_Helper::send_success(__('Date blocked successfully', 'fluent-bookings'));
+        } else {
+            Fluent_Booking_Helper::send_error(__('Failed to block date', 'fluent-bookings'));
+        }
+    }
+
+    /**
+     * Unblock date
+     */
+    public function unblock_date() {
+        Fluent_Booking_Helper::verify_nonce($_POST['nonce']);
+        Fluent_Booking_Helper::check_admin_permission();
+
+        $block_id = isset($_POST['block_id']) ? absint($_POST['block_id']) : 0;
+
+        if (!$block_id) {
+            Fluent_Booking_Helper::send_error(__('Invalid block ID', 'fluent-bookings'));
+        }
+
+        $result = Fluent_Booking_Availability::unblock_date($block_id);
+
+        if ($result) {
+            Fluent_Booking_Helper::send_success(__('Date unblocked successfully', 'fluent-bookings'));
+        } else {
+            Fluent_Booking_Helper::send_error(__('Failed to unblock date', 'fluent-bookings'));
+        }
     }
 
     /**

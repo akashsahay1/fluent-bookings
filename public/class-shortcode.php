@@ -90,6 +90,18 @@ class Fluent_Booking_Shortcode {
         <div class="fluent-booking-form-wrapper" id="<?php echo esc_attr($instance_id); ?>" data-form-id="<?php echo esc_attr($form_id); ?>">
             <?php $this->render_inline_styles($instance_id, $styles); ?>
 
+            <!-- Availability Info -->
+            <div class="fb-date-availability-info">
+                <span>
+                    <span class="fb-availability-dot available"></span>
+                    <?php esc_html_e('Available dates', 'fluent-bookings'); ?>
+                </span>
+                <span>
+                    <span class="fb-availability-dot unavailable"></span>
+                    <?php esc_html_e('Unavailable dates', 'fluent-bookings'); ?>
+                </span>
+            </div>
+
             <form class="fluent-booking-form" method="post">
                 <?php if (!empty($form['description'])) : ?>
                     <div class="fb-form-description">

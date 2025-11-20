@@ -72,6 +72,9 @@ $forms = $wpdb->get_results(
                             <a href="<?php echo esc_url(admin_url('admin.php?page=fluent-booking-edit-form&id=' . $form['id'])); ?>" class="button button-small">
                                 <?php esc_html_e('Edit', 'fluent-bookings'); ?>
                             </a>
+                            <a href="<?php echo esc_url(admin_url('admin.php?page=fluent-booking-availability&form_id=' . $form['id'])); ?>" class="button button-small">
+                                <?php esc_html_e('Availability', 'fluent-bookings'); ?>
+                            </a>
                             <button
                                 class="button button-small fb-duplicate-form"
                                 data-form-id="<?php echo esc_attr($form['id']); ?>"

@@ -121,9 +121,58 @@
     border-color: #dc3232 !important;
 }
 
+/* Date availability indicators */
+.fb-date-availability-info {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+    background: #f9f9f9;
+    border-radius: 3px;
+    font-size: 13px;
+}
+
+.fb-date-availability-info span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.fb-availability-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.fb-availability-dot.available {
+    background: #28a745;
+}
+
+.fb-availability-dot.unavailable {
+    background: #dc3545;
+}
+
+/* Date field with availability */
+.fb-date-field[data-disabled-dates]::-webkit-calendar-picker-indicator {
+    cursor: pointer;
+}
+
+.fb-date-help-text {
+    font-size: 12px;
+    color: #666;
+    margin-top: 5px;
+    font-style: italic;
+}
+
 /* Responsive */
 @media screen and (max-width: 600px) {
     .fb-field-wrapper {
         width: 100% !important;
+    }
+
+    .fb-date-availability-info {
+        flex-direction: column;
+        gap: 8px;
     }
 }

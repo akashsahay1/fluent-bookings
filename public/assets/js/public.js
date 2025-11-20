@@ -6,10 +6,72 @@
     'use strict';
 
     var FluentBookingPublic = {
+        availableDates: {},
+        unavailableDates: {},
+
         init: function() {
             this.initForms();
             this.initDatePicker();
             this.initTimePicker();
+            this.loadAvailability();
+        },
+
+        loadAvailability: function() {
+            var self = this;
+
+            jQuery('.fluent-booking-form-wrapper').each(function() {
+                var formWrapper = jQuery(this);
+                var formId = formWrapper.data('form-id');
+
+                // Load availability for next 60 days
+                var startDate = new Date();
+                var endDate = new Date();
+                endDate.setDate(endDate.getDate() + 60);
+
+                jQuery.ajax({
+                    url: fluentBookingPublic.ajaxurl,
+                    type: 'POST',
+                    data: {
+                        action: 'fb_check_date_availability',
+                        form_id: formId,
+                        start_date: self.formatDate(startDate),
+                        end_date: self.formatDate(endDate)
+                    },
+                    success: function(response) {
+                        if (response.success) {
+                            self.availableDates[formId] = response.data.available;
+                            self.unavailableDates[formId] = response.data.unavailable;
+                            self.highlightDates(formWrapper, formId);
+                        }
+                    }
+                });
+            });
+        },
+
+        formatDate: function(date) {
+            var year = date.getFullYear();
+            var month = ('0' + (date.getMonth() + 1)).slice(-2);
+            var day = ('0' + date.getDate()).slice(-2);
+            return year + '-' + month + '-' + day;
+        },
+
+        highlightDates: function(formWrapper, formId) {
+            var self = this;
+            var dateField = formWrapper.find('.fb-date-field');
+
+            if (dateField.length) {
+                // Add custom styling via CSS class
+                dateField.addClass('fb-date-with-availability');
+
+                // Disable unavailable dates
+                if (self.unavailableDates[formId]) {
+                    var minDate = new Date().toISOString().split('T')[0];
+                    var disabledDates = self.unavailableDates[formId];
+
+                    // Update the date input attributes
+                    dateField.attr('data-disabled-dates', disabledDates.join(','));
+                }
+            }
         },
 
         initForms: function() {
